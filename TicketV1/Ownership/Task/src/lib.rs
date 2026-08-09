@@ -34,18 +34,13 @@ impl Ticket {
         }
     }
 
-   // TODO:
-    pub fn title(self) -> String {
+    // TODO:
+    pub fn title(&self) -> String {
         self.title
-    }}
+    }
 
-   // TODO:
-    pub fn description(self) -> String {
-        self.description
-    }}
+    // TODO:
+    pub fn description(&self) -> String { self.description }
 
-   // TODO:
-    pub fn status(self) -> String {
-        self.status
-    }}
-}
+    // TODO:
+    pub fn status(&self) -> String { self.status }
