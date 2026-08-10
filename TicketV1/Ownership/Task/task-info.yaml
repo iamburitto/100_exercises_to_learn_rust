@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 1144
-        length: 70
+        length: 69
         placeholder_text: |-
           // TODO:
               pub fn title(self) -> String {
@@ -16,9 +16,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Uy9qYUlCExHYSxtw26o/mm7FsfGRZpsgH0YUqDaHaeSJrw3QW2aVpXVDNPjlBu0Othzzt/ClBXQI8GfOO8E1dQ==
         selected: true
-        status: Failed
-      - offset: 1219
-        length: 70
+        status: Solved
+      - offset: 1218
+        length: 69
         placeholder_text: |-
           // TODO:
               pub fn description(self) -> String {
@@ -30,9 +30,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: jTLVaA9PYLlBxa7lRgQ61VYTKPgnHQ9gEjN+ir4wIcYJjLJndMwPqfZCqm8mZgMzGEXz17flNw/JDmWujxzLU7mHWbHEbskY1ZGVhF7MMUw=
         selected: true
-        status: Failed
-      - offset: 1294
-        length: 59
+        status: Solved
+      - offset: 1292
+        length: 58
         placeholder_text: |-
           // TODO:
               pub fn status(self) -> String {
@@ -44,7 +44,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 4tzUqNxeBLPVaBBkXIL+4d1y17c13dhpYCMel7bRSv7s5mNtfMarEHCZ2FQhOxWAQVOPX+ndiC7QO6RTCGUFbw==
         selected: true
-        status: Failed
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -52,8 +52,8 @@ files:
   - name: tests/tests.rs
     visible: false
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Compilation Failed
-  time: "Sun, 09 Aug 2026 10:44:59 UTC"
+  message: Congratulations!
+  time: "Sun, 09 Aug 2026 11:43:47 UTC"
 record: -1

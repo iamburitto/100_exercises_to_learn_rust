@@ -11,23 +11,9 @@ pub struct Ticket {
 
 impl Ticket {
     pub fn new(title: String, description: String, status: String) -> Ticket {
-       // TODO:
-        if title.is_empty() {
-            panic!("Title cannot be empty");
-        }
-        if title.len() > 50 {
-            panic!("Title cannot be longer than 50 bytes");
-        }
-        if description.is_empty() {
-            panic!("Description cannot be empty");
-        }
-        if description.len() > 500 {
-            panic!("Description cannot be longer than 500 bytes");
-        }
-        if status != "To-Do" && status != "In Progress" && status != "Done" {
-            panic!("Only `To-Do`, `In Progress`, and `Done` statuses are allowed");
-        };
-
+        validate_title(&title);
+        validate_description(&description);
+        validate_status(&status);
         Ticket {
             title,
             description,
@@ -47,21 +33,51 @@ impl Ticket {
         &self.status
     }
 
-   /* TODO: set_title */}
+    // mut self
+    // pub fn set_title(mut self, new_title: String) -> Self {
+    //     validate_title(&new_title);
+    //     self.title = new_title;
+    //     self
+    // }
 
-   /* TODO: set_description */}
+    // &mut self
+    pub fn set_title(&mut self, new_title: String) {
+        validate_title(&new_title);
+        self.title = new_title
+    }
 
-   /* TODO: set_status */}
+    pub fn set_description(&mut self, new_description: String) {
+        validate_description(&new_description);
+        self.description = new_description
+    }
+
+    pub fn set_status(&mut self, new_status: String) {
+        validate_status(&new_status);
+        self.status = new_status
+    }
+    
 }
 
 fn validate_title(title: &String) {
-   /* TODO */}
+    if title.len() > 50 {
+        panic!("Title cannot be longer than 50 bytes");
+    }
+    if title.is_empty() {
+        panic!("Title cannot be empty");
+    }
 }
 
 fn validate_description(description: &String) {
-   /* TODO */}
+    if description.is_empty() {
+        panic!("Description cannot be empty");
+    }
+    if description.len() > 500 {
+        panic!("Description cannot be longer than 500 bytes");
+    }
 }
 
 fn validate_status(status: &String) {
-   /* TODO */}
+    if status != "To-Do" && status != "In Progress" && status != "Done" {
+        panic!("Only `To-Do`, `In Progress`, and `Done` statuses are allowed");
+    }
 }
