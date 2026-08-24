@@ -55,7 +55,7 @@ impl Ticket {
         validate_status(&new_status);
         self.status = new_status
     }
-    
+
 }
 
 fn validate_title(title: &String) {

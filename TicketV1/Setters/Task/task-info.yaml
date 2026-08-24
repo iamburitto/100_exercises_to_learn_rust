@@ -30,7 +30,7 @@ files:
         selected: true
         status: Solved
       - offset: 904
-        length: 602
+        length: 598
         placeholder_text: "/* TODO: set_title */"
         initial_state:
           length: 21
@@ -40,7 +40,7 @@ files:
         selected: true
         status: Solved
       - offset: 1502
-        length: 4
+        length: 0
         placeholder_text: "/* TODO: set_description */"
         initial_state:
           length: 27
@@ -50,7 +50,7 @@ files:
         selected: true
         status: Solved
       - offset: 1502
-        length: 4
+        length: 0
         placeholder_text: "/* TODO: set_status */"
         initial_state:
           length: 22
@@ -59,7 +59,7 @@ files:
         encrypted_possible_answer: KyW1I380dcR18SF0Z7Zz4OWL5Kp6biDLQYkTwPdsSJGELMPq6iKjZj4qmka74ui163graqR3MY9iDUsrDISBUhoEba2bnpmQVSDCP9a+j6WPcwjAaqFGsXcGajlYQmqkWY9CGFAbNKziJghBvT4+rVENAOCu8aujrK52vgKFElk=
         selected: true
         status: Solved
-      - offset: 1547
+      - offset: 1543
         length: 85
         placeholder_text: /* TODO */
         initial_state:
@@ -69,7 +69,7 @@ files:
         encrypted_possible_answer: ZSt0cZlNbYVPqOQC0tPdaFuQ30QS/hLx9TA4DffUNr814pSrBVJ7p1vjhycckvuqPpQaApngf9jcVmJ3yJNuysNbTNJ++7WBmSpvo4Lc8uHIYgIgYKH/NwsrTwg+yuvYGGl8Jq6gZ4sbBjzTAw/gI3J/yR1olXHWicOKK1un+U1Rb2PYRIM/Y2uhTygF2ev+bLwQL3QwHqqvAnRCa0m6yQ==
         selected: true
         status: Solved
-      - offset: 1761
+      - offset: 1757
         length: 184
         placeholder_text: /* TODO */
         initial_state:
@@ -79,7 +79,7 @@ files:
         encrypted_possible_answer: G1xDa6NBIQGSm0h9aWteho9uK/SGQGOtqjqAZxphU7HZRFsS9VcaKT0AKfZYLSO4HSTKhmJ3r4djtHw+U0u8hPLvUQbx/zBxGMBm2R1XJOHLiyXn6lektWJ41mrsvkBnPpNWTlSuiU97i4UT7ZLzwco6ZtHxcIoxw1dB7bNJqquSdYoIiOoHPfhWso5UpgAVLn53IPVxyeLtc08BlcsZTpoyRxtCJ+rC4jgnRkiXISOEYjIcogKAPPg1Carb4boE
         selected: true
         status: Solved
-      - offset: 1991
+      - offset: 1987
         length: 150
         placeholder_text: /* TODO */
         initial_state:
