@@ -12,4 +12,82 @@
 // You'll need to pay attention to the visibility of your types and methods; integration
 // tests can't access private or `pub(crate)` items.
 
-/* TODO */
+pub struct Order {
+    product_name: String,
+    quantity: u32,
+    unit_price: u32,
+}
+
+impl Order {
+
+    pub fn new(product_name: String, quantity: u32, unit_price: u32) -> Order
+    {
+        validate_product_name(&product_name);
+        validate_quantity(&quantity);
+        validate_unit_price(&unit_price);
+
+        Order {
+            product_name,
+            quantity,
+            unit_price,
+        }
+    }
+
+    // define getters for each field
+
+    pub fn product_name(&self) -> &str { &self.product_name }
+    pub fn quantity(&self) -> &u32 { &self.quantity }
+    pub fn unit_price(&self) -> &u32 { &self.unit_price }
+
+    // define setters for each field
+
+    pub fn set_product_name(&mut self, new_product_name: String)
+    {
+        validate_product_name(&new_product_name);
+        self.product_name = new_product_name;
+    }
+
+    pub fn set_quantity(&mut self, new_quantity: u32)
+    {
+        validate_quantity(&new_quantity);
+        self.quantity = new_quantity;
+    }
+
+    pub fn set_unit_price(&mut self, new_unit_price: u32)
+    {
+        validate_unit_price(&new_unit_price);
+        self.unit_price = new_unit_price;
+    }
+
+    // define a method named Total that returns the total price of the order
+    pub fn total(&self) -> u32 {
+        self.quantity * self.unit_price
+    }
+
+}
+
+fn validate_product_name(product_name: &String) {
+    // make sure product_name is not empty
+    if product_name.is_empty() {
+        panic!("product_name cannot be empty");
+    }
+    // make sure product_name <= 300 bytes
+    if product_name.len() > 300 {
+        panic!("product_name cannot be > 300 bytes");
+    }
+}
+
+fn validate_quantity (quantity: &u32) {
+    // make sure quantity > 0
+    if *quantity <= 0 {
+        panic!("quantity cannot be <= 0");
+    }
+}
+
+fn validate_unit_price(unit_price: &u32) {
+    // make sure unit price > 0
+    if *unit_price <= 0 {
+        panic!("unit_price cannot be <= 0");
+    }
+}
+

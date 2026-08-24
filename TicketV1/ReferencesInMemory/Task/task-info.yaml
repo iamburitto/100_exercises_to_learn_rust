@@ -9,8 +9,8 @@ files:
   - name: tests/tests.rs
     visible: true
     placeholders:
-      - offset: 362
-        length: 10
+      - offset: 361
+        length: 1
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -18,9 +18,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ElhJvZd0xSbiFwiVwsyDHg==
         selected: false
-        status: Unchecked
-      - offset: 464
-        length: 10
+        status: Solved
+      - offset: 454
+        length: 1
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -28,9 +28,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ElhJvZd0xSbiFwiVwsyDHg==
         selected: false
-        status: Unchecked
-      - offset: 564
-        length: 10
+        status: Solved
+      - offset: 545
+        length: 1
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -38,7 +38,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ElhJvZd0xSbiFwiVwsyDHg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 17 Aug 2026 03:12:33 UTC"
 record: -1
