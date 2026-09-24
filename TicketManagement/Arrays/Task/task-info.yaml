@@ -13,45 +13,45 @@ files:
         encrypted_possible_answer: o6U4nzzUD6FJUZ7KpCmS6II+f0DU0oPJEYzCntF+lOo=
         selected: false
         status: Unchecked
-      - offset: 320
+      - offset: 322
         length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 320
+          offset: 322
         initialized_from_dependency: false
-        encrypted_possible_answer: kUbndNgTRhOfV1yCZLgZfQHTmotI41PfyVz032IZt3pJ1IH++hqBie4Vu4fho4dw3cZglsRyvuCee3DP1Yh63Leyo9W2xGtG2aW33dkBmPo=
+        encrypted_possible_answer: 6gZE03RsyPew2jnz7bCyhs9BbCko5OZSN+TQjKXeBrMzs96FJ9eOImIh5quokFLOusqiYqRTXSLrlDZFAHCVt5kkIVAUJMtUtmGAjTTyTE4=
         selected: false
         status: Unchecked
-      - offset: 411
+      - offset: 413
         length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 411
+          offset: 413
         initialized_from_dependency: false
-        encrypted_possible_answer: vuUqnmUkTRQz8dSJkX2u+Z+4y4qyDAmT1/nlcv9hPZG0mBnxPQ3pqB91aizCZahoWycQ+JTIPi8u9Prtd3T4oruCZvBvRJs/huvGT2F6tBY=
+        encrypted_possible_answer: Ooll8h8dtSMNEfPHyZhe4KEdhXGjy3VqQ4Ob0SEAT6fUEmIqqMDnoH+iuVUvTStEY4hhcYtZ0gAS9e1FTenpkwt15JaYnmxYSOWHR14UqIk=
         selected: false
         status: Unchecked
-      - offset: 509
+      - offset: 511
         length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 509
+          offset: 511
         initialized_from_dependency: false
-        encrypted_possible_answer: vuUqnmUkTRQz8dSJkX2u+Z+4y4qyDAmT1/nlcv9hPZG0mBnxPQ3pqB91aizCZahoWycQ+JTIPi8u9Prtd3T4orVHYbS8yi8cLqEGszlk3Qbszc31FBRrjtjAxkpyO2mc
+        encrypted_possible_answer: Ooll8h8dtSMNEfPHyZhe4KEdhXGjy3VqQ4Ob0SEAT6fUEmIqqMDnoH+iuVUvTStEY4hhcYtZ0gAS9e1FTenpk/dKlByrfeDhJ9zjBlG05clfOmJ/+oMT1cOguBtWxexf
         selected: false
         status: Unchecked
-      - offset: 529
+      - offset: 531
         length: 118
         placeholder_text: "/* TODO: Create weekday2index method which converts a Weekday\
       \ enum variant into its corresponding zero-based index. */"
         initial_state:
           length: 118
-          offset: 529
+          offset: 531
         initialized_from_dependency: false
-        encrypted_possible_answer: wz2B8T98TxYkEZSVKoW2que/S+VIH4mTbZTIveIeL3f4kf5ML02MqqOUYMp7stk1MAFh8FzSW+f5KJOgMgOaqIMqLiOaTt2UBQCcSWkoFbeJ/8yNVOqsztkVJs5PcOUZULn0LbxtvVRqpe0Ix92RJWl2eZWZFgwhP2IvaA031ekw4mwmZ/Gh5P76ogaTlpbD5oyDeCAzi9YqFk0XqmBBLpKjMtE2xm1r4ddhQ+oamc+t8CY92E7V3gHVLXQgdmIcUlgM6lPDxZHZe8T+keWGlQTpxE9m0dKcl+I2klaMMiaUVR5IwOtU8+4hYQh6L1doPRSc5/3xHxwOhrEekiHg2dnZSAYKvIOMbat1Ez9DV/kDGS3YM6+s+fj+jIn5EMU6
+        encrypted_possible_answer: xlYkd4wi832ueyke1nszU6NBhZ37qSb7vkDfr1L20+ZvTHZZFT/5HsUDL+fho++JyADKqRHxSHyRaynuzVqOKF3cFhthYXtUsjm2U+YMiKo4CPbRpasErSQiezMNv1XnqSMXf44ITMC+cFsGMzETiDnw3smf4PnT9TJ9Y3eLftkZmZS6862yT9/1D801d2YG5FRQ6VgyTzKR8f6ug8dE7NoXyu8+ZaDswTQ3jCVSIbOmJplq09FFtWRC+gI2ua+sybM8u7tF/HtHctwoybjeLKUo5Va3wdOSAyTg0Jh9yuJ7HLo5B9GMpQAfiF9XvTPushEJrmuJGTnsZsckrVVhWfLSTpfaSTF89TJ7Wprcs6Yw9whDXDjWg7NPbahV1b67
         selected: false
         status: Unchecked
     learner_created: false

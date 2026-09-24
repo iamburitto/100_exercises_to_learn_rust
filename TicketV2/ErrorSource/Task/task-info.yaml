@@ -28,7 +28,7 @@ files:
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
   - name: src/status.rs
     visible: true

@@ -7,7 +7,7 @@ files:
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
   - name: src/store.rs
     visible: true

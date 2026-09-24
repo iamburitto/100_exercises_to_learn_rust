@@ -10,38 +10,35 @@ files:
     visible: true
     placeholders:
       - offset: 81
-        length: 3
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 81
         initialized_from_dependency: false
         encrypted_possible_answer: 4w33P5f+Ces/HqPWq0IorA==
-        selected: true
+        selected: false
         status: Solved
-      - offset: 912
-        length: 2
+      - offset: 918
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 920
+          offset: 918
         initialized_from_dependency: false
         encrypted_possible_answer: RESya3fqSV1DFqjsTgSSYQ==
-        selected: true
+        selected: false
         status: Solved
-      - offset: 1004
-        length: 2
+      - offset: 1018
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1020
+          offset: 1018
         initialized_from_dependency: false
         encrypted_possible_answer: oa+nVSRiKi7L3SNrfCrSCA==
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Fri, 07 Aug 2026 07:03:13 UTC"
 record: -1

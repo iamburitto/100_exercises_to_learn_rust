@@ -27,14 +27,15 @@ pub fn server(receiver: Receiver<Command>) {
     loop {
         match receiver.recv() {
             Ok(Command::Insert {
-                /* TODO */nse_sender,
+                /* TODO */
             }) => {
-        /* TODO */end(id);
+                todo!()
             }
             Ok(Command::Get {
-           /* TODO */r,
+                /* TODO */
             }) => {
-                l/* TODO */            }
+                todo!()
+            }
             Err(_) => {
                 // There are no more senders, so we can safely break
                 // and shut down the server.

@@ -20,65 +20,65 @@ files:
           length: 10
           offset: 282
         initialized_from_dependency: false
-        encrypted_possible_answer: siY1FrRgEbfxaGyZSKs5XtKJf+Giz64hcCkXAzpTqz9+E7udjV/A/05nxAHfZRG5OVJ3RLawwQYjnayxyHOz7w==
+        encrypted_possible_answer: siY1FrRgEbfxaGyZSKs5XtKJf+Giz64hcCkXAzpTqz9+E7udjV/A/05nxAHfZRG55/A9X1FfxBkoTcdCpmRRjA==
         selected: false
         status: Unchecked
-      - offset: 657
+      - offset: 656
         length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 657
+          offset: 656
         initialized_from_dependency: false
-        encrypted_possible_answer: 4ge28S649gpqrvDjO/TJUz9X4jA3Sj1zuitnN2lI9nyMHAMbFDGNjaIuCn/rsYOMIkHOorVJ+yYTIbEVUjPa9hX6CVgYaA67xNg+FIOsoj/II5sYf5Bke9QMpvCBIRbevmWlGP0cs49wa+X+ALc9+SjZRJfUEjGXB1UfCXFNLNvyO0rHjOLWJ2pE8GQTxByXioZ26YO0ou6rNV0Z9eBYJGkFLxzi48xsJ8JXNDNdyaL5ZIZoN6g8mjG0tCLRvSWHf0ltJxA/uRPki9K0bMVEuP3qYVWkCcVwjD/TuvcUAfC+QtrwbAseyZ3IzOR1GHqPtl/5woXJ3clqaxghk3FMssSK+9PEeVXXkqZIzxj3rz47FGG6yBoy/lAvMH8jymSHpt8U6WHv/Sj08b2E67dlV3WVX1Q4eE905AfG1e2puyvUr+pfCMTwlTfwbvEn1Lu8
+        encrypted_possible_answer: 4ge28S649gpqrvDjO/TJUz9X4jA3Sj1zuitnN2lI9nyMHAMbFDGNjaIuCn/rsYOMIkHOorVJ+yYTIbEVUjPa9hX6CVgYaA67xNg+FIOsoj/II5sYf5Bke9QMpvCBIRbevmWlGP0cs49wa+X+ALc9+SjZRJfUEjGXB1UfCXFNLNvyO0rHjOLWJ2pE8GQTxByXioZ26YO0ou6rNV0Z9eBYJGkFLxzi48xsJ8JXNDNdyaL5ZIZoN6g8mjG0tCLRvSWHf0ltJxA/uRPki9K0bMVEuP3qYVWkCcVwjD/TuvcUAfC+QtrwbAseyZ3IzOR1GHqPtl/5woXJ3clqaxghk3FMssSK+9PEeVXXkqZIzxj3rz47FGG6yBoy/lAvMH8jymSHpt8U6WHv/Sj08b2E67dlV3WVX1Q4eE905AfG1e2puyvOuVt8yIA3iITKfGC89kHC
         selected: false
         status: Unchecked
-      - offset: 1099
+      - offset: 1097
         length: 69
         placeholder_text: |-
           /* TODO */
                     return Err("Title cannot be empty".to_string());
         initial_state:
           length: 69
-          offset: 1099
+          offset: 1097
         initialized_from_dependency: false
-        encrypted_possible_answer: y9C7Gsb0/nOhkaLI7DJNRT2DZQIbx5WmyB6TXkKgiRviyT/tK2aA05EgmxJjLD5fcjvU0+jQUvdhnzdaLKYMg7DmrwHglL7/i9ULqmcoigzwQvm7BSfbktABbSSysW7kxlN57f6OpeRTYzgXDHFz9g==
+        encrypted_possible_answer: y9C7Gsb0/nOhkaLI7DJNRT2DZQIbx5WmyB6TXkKgiRviyT/tK2aA05EgmxJjLD5fcjvU0+jQUvdhnzdaLKYMg7DmrwHglL7/i9ULqmcoigzwQvm7BSfbktABbSSysW7koM5vzl9WqFnSPD7COyliWQ==
         selected: false
         status: Unchecked
-      - offset: 1221
+      - offset: 1218
         length: 84
         placeholder_text: |-
           /* TODO */
                     return Err("Title cannot be longer than 50 bytes".to_string());
         initial_state:
           length: 84
-          offset: 1221
+          offset: 1218
         initialized_from_dependency: false
-        encrypted_possible_answer: y9C7Gsb0/nOhkaLI7DJNRT2DZQIbx5WmyB6TXkKgiRviyT/tK2aA05EgmxJjLD5fcjvU0+jQUvdhnzdaLKYMg90sTpEH86ba6arpwsiBRxr3IbrMxSKEwAA/UAQkHcIM1ifUTVLPm139wzRtnPVk/ZQ10YoKbOKKyNlTckQarfo=
+        encrypted_possible_answer: y9C7Gsb0/nOhkaLI7DJNRT2DZQIbx5WmyB6TXkKgiRviyT/tK2aA05EgmxJjLD5fcjvU0+jQUvdhnzdaLKYMg90sTpEH86ba6arpwsiBRxr3IbrMxSKEwAA/UAQkHcIM1ifUTVLPm139wzRtnPVk/YWAubliFisOi3WVkWAWDLs=
         selected: false
         status: Unchecked
-      - offset: 1364
+      - offset: 1360
         length: 75
         placeholder_text: |-
           /* TODO */
                     return Err("Description cannot be empty".to_string());
         initial_state:
           length: 75
-          offset: 1364
+          offset: 1360
         initialized_from_dependency: false
-        encrypted_possible_answer: y9C7Gsb0/nOhkaLI7DJNRcABuT00qqfWTDzUGTBCeZEtCiB8mnnITJiux4h7w2NRDNp/nsJ4RVb4tMLncH+LE3A8/ou5BubSjvJgdjl8LkEtbQYQ5ng4tRLiVFvlTXSS7Jw50M9p8udM+0e7KkSprpheoAzIQmDzVbAxJqdHDvc=
+        encrypted_possible_answer: y9C7Gsb0/nOhkaLI7DJNRcABuT00qqfWTDzUGTBCeZEtCiB8mnnITJiux4h7w2NRDNp/nsJ4RVb4tMLncH+LE3A8/ou5BubSjvJgdjl8LkEtbQYQ5ng4tRLiVFvlTXSS7Jw50M9p8udM+0e7KkSpriNaZpRAz1Kd8pcdT8Z04BM=
         selected: false
         status: Unchecked
-      - offset: 1499
+      - offset: 1494
         length: 91
         placeholder_text: |-
           /* TODO */
                     return Err("Description cannot be longer than 500 bytes".to_string());
         initial_state:
           length: 91
-          offset: 1499
+          offset: 1494
         initialized_from_dependency: false
-        encrypted_possible_answer: y9C7Gsb0/nOhkaLI7DJNRcABuT00qqfWTDzUGTBCeZEtCiB8mnnITJiux4h7w2NRDNp/nsJ4RVb4tMLncH+LE3A8/ou5BubSjvJgdjl8LkGsjankm+ElRPJaJVuo1eM7JetJdwk+ojxTaD66wE59LsnkUy3nTKY8HHZrAS/k9k4mtNcvXyBJwVJKK0g5Qi/z
+        encrypted_possible_answer: y9C7Gsb0/nOhkaLI7DJNRcABuT00qqfWTDzUGTBCeZEtCiB8mnnITJiux4h7w2NRDNp/nsJ4RVb4tMLncH+LE3A8/ou5BubSjvJgdjl8LkGsjankm+ElRPJaJVuo1eM7JetJdwk+ojxTaD66wE59LsnkUy3nTKY8HHZrAS/k9k7Sl1bdkzLFBj6hcmDXFPeK
         selected: false
         status: Unchecked
     learner_created: false
@@ -86,7 +86,7 @@ files:
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Unchecked
 record: -1

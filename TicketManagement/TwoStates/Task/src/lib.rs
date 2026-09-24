@@ -11,7 +11,8 @@ use ticket_fields::{TicketDescription, TicketTitle};
 #[derive(Clone)]
 pub struct TicketStore {
     tickets: Vec<Ticket>,
-    /* TODO */
+    /* TODO */}
+
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub struct TicketId(u64);
 

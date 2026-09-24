@@ -38,7 +38,7 @@ pub enum Status {
 impl TicketStore {
     pub fn new() -> Self {
         Self {
-            tickets: todo!()
+            tickets: todo!(),
             counter: 0,
         }
     }

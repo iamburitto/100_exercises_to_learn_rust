@@ -1,0 +1,29 @@
+type: ide
+custom_name: Set up your IDE
+files:
+  - name: src/main.rs
+    visible: true
+    learner_created: false
+  - name: Cargo.toml
+    visible: false
+    learner_created: false
+  - name: images/rustrover_external_linters.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/rustrover_external_linters_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/rustrover_code_completion.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/rustrover_code_completion_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+feedback:
+  time: "Wed, 23 Sep 2026 22:15:13 UTC"
+record: -1

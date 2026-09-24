@@ -16,15 +16,16 @@ pub enum Weekday {
 
 impl WeekTemperatures {
     pub fn new() -> Self {
-      /* TODO */  }
+        /* TODO */
     }
 
     pub fn get_temperature(&self, day: Weekday) -> Option<i32> {
-     /* TODO */ex]
+        /* TODO */
     }
 
     pub fn set_temperature(&mut self, day: Weekday, temperature: i32) {
-     /* TODO */e);
+        /* TODO */
     }
-/* TODO: Create weekday2index method which converts a Weekday enum variant into its corresponding zero-based index. */ }
 }
+
+/* TODO: Create weekday2index method which converts a Weekday enum variant into its corresponding zero-based index. */

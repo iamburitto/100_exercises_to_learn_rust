@@ -4,24 +4,21 @@ files:
     visible: true
     placeholders:
       - offset: 1128
-        length: 570
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1137
+          offset: 1128
         initialized_from_dependency: false
-        encrypted_possible_answer: bm2eQUjnY4O4R/5QMbcumc2lVmxouUAv8i6ivb439RCVFgXfi5ITKqezg7iL0bpPQjVVjoYV/NUai7V2vWkwWbbszU0/6unkXR4mK3FPBFs9yjYvJX5q6/73T1EyvVo8MU8bJGokd0jr9YY68zIpc05vKG/hvuMkz7HxH/NzXkux8TNZrh3LaCnfnCKudd3bcLIYeDrfBkwrAQ8ZH45CjPjmQglsS/s9lykEbfKu1KE/cJDJ7MsGIC8aQLAfYI8AgjRcg/C64a48801ckJL0lvIH1CLH1aetUf8fpPIVxjsGSVKyQST92I5qOuaikmonXxhTWOTZsrN396Zwk8hKkRHy8deLN3P8NCmxK/wUkcqxKqz8wgiriDUNUt6VcqCn58ymiCTdPBNv7utdDBCQGNyb8+6KgxcmzIvsLb1gvPzn9os8JYkDhmhUT+XN4iw4M7fuMJUqblVgDc021moQLQwimwiThlz1TJRBGprpzZirI40jyYnvXfidlrodi7DOj1MQ4L3kxz73oX1dFXndjU/0UGxjbI5aidLjHRJGiBfm81ocMuEcdmgKJgCfgA4SrRhJuyXFxq/AsZkcwxhd2lIttsxMKYuBhWlKr0CaZDHEavehG90oiPhePU+6T4q7Db0dtfuQb1CxSirRiWeYHBA94LA8GqYE+IB62phJ1objQTWtwg3grQXgqjgY7jwOYspLR4RgiX6CKzJWhkRYPQdcoD1imPRAVYl1vHQdcHOTLXY/LYAAtRmvIM9CpJlD
-        selected: true
+        encrypted_possible_answer: JAE780RrHkgO9Jtiyi4WnHU6Maj1WWuZkYscEntk3gdOwbYWKkELuOJmFdpxD2B+pZYzN80ENAb4qABI4ODiUzZZ4mFYhJJsGFEcU/8ugEHkZwEzysAeTNLR7/6vZqoMK3uQgZ5zuUEehZShNw8c5zvVQcYTOFhnpeAr/2gNdbyqvmZqWu12gxtTFf6/B+eVOiyKA1I2hb7aFVaF1TDHplCp4IoS2619NNZntW3Ge45H0TtTgZMOg9TMCSeEoIkNrxdUmJA4xqMLmfuAFAy69wBjxlVCjXc5grDF8n2bTC7vDcOaj3MOO/bZW8Ud1fcJrDKrqN8VogZrJEwH4O8k/Ej8kfmV1Bitj6QZqSmcc85w2xqwfwZbC35k5X+9wke0xJGKI7zZxXLe5fC88rW6jf48aSeQWgONKeJouaTgI9n43OXmoPP93hn4p3+IpvBelIb1HCh4FxNcDatJT48vKF/Xgky3+mcwMkZhGjnKKHNTohPpBgWNV/9ZPG+0HmN8KAMJII3naWyI7WClf5KAW3f0DbLMD5jfeNfmGez3dZjjJsw1mDwNdIn0/0iQ7N0TuYnCB+7wuPEYI7ksCb0ZBjnMIdyWrWxo3XjONb8PRJsGcc6hbpBWnG77kk41p0lO+kYrQ3CRxIrq1TXhtw/+vNtuqnYJzbLuB2da2BTOM9Nfxh70DxlFFKNkZiY5rO7ex5hptLTplJSey/dFnCW6TL+AwSmzkojcrpkL2Btco4x8nYGHt024IEeOfSgt/kT6
+        selected: false
         status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Sun, 09 Aug 2026 07:53:23 UTC"
 record: -1

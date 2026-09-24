@@ -87,7 +87,8 @@ pub fn server(receiver: Receiver<Command>) {
                 patch,
                 response_channel,
             }) => {
-                i/* TODO */            }
+                /* TODO */
+            }
             Err(_) => {
                 // There are no more senders, so we can safely break
                 // and shut down the server.

@@ -19,7 +19,7 @@ You must assume that the fields can be modified at any time, set to any value th
 their type. You can't rule out that a ticket might have an empty title or a status
 that doesn't make sense.
 
-To enforce stricter rules, we must keep the fields private[^newtype].
+To enforce stricter rules, we must keep the fields private (or refine their type, a technique we'll explore [later on](../../../TicketV2/Outro/Theory/task.md)).
 We can then provide public methods to interact with a `Ticket` instance.
 Those public methods will have the responsibility of upholding our invariants (e.g. a title must not be empty).
 
@@ -38,7 +38,7 @@ let ticket = Ticket {
 You've seen this in action in the previous exercise on visibility.\
 We now need to provide one or more public **constructors**—i.e. static methods or functions that can be used
 from outside the module to create a new instance of the struct.\
-Luckily enough we already have one: `Ticket::new`, as implemented in [a Validation lesson](../../Validation/Theory/task.md).
+Luckily enough we already have one: `Ticket::new`, as implemented in [a Validation lesson](../../../TicketV1/Validation/Theory/task.md).
 
 ## Accessor methods
 
@@ -55,5 +55,3 @@ Accessor methods are public methods that allow you to read the value of a privat
 
 Rust doesn't have a built-in way to generate accessor methods for you, like some other languages do.
 You have to write them yourself—they're just regular methods.
-
-[^newtype]: Or refine their type, a technique we'll explore [later on](../../../Ticket%20v2/Outro/Theory/task.md).
