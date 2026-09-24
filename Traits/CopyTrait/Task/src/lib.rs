@@ -1,5 +1,6 @@
-// TODO: implement the necessary traits to make the test compile and pass.
-/* TODO */
+use std::ops::Add;
+
+#[derive(Debug, Copy, Clone, PartialEq)]
 pub struct WrappingU32 {
     value: u32,
 }
@@ -10,4 +11,10 @@ impl WrappingU32 {
     }
 }
 
-/* TODO */
+// Add function
+impl Add for WrappingU32 {
+    type Output = Self;
+    fn add(self, rhs: Self) -> Self {
+        Self::new(self.value.wrapping_add(rhs.value))
+    }
+}
