@@ -8,15 +8,17 @@ pub enum TicketNewError {
     TitleError(String),
     DescriptionError(String),
 }
+
 /* TODO */
-}/* TODO */{}
+
+/* TODO */
 
 // TODO: `easy_ticket` should panic when the title is invalid, using the error message
 //   stored inside the relevant variant of the `TicketNewError` enum.
 //   When the description is invalid, instead, it should use a default description:
 //   "Description not provided".
 pub fn easy_ticket(title: String, description: String, status: Status) -> Ticket {
-  /* TODO */  }
+    /* TODO */
 }
 
 #[derive(Debug, PartialEq, Clone)]

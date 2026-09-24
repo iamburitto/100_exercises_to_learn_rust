@@ -3,14 +3,14 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
-      - offset: 1091
+      - offset: 1092
         length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1091
+          offset: 1092
         initialized_from_dependency: false
-        encrypted_possible_answer: Wq5OcUZ6C1rLijyJ6lspKoCsPIENkIZCOo76Vdk2Pzfd7xL9bTqD90oUZ3T+GQCinjSdp6AILfotGn+UminELEcAl3p3pg4ODu5jKI4dsgJb982Bn4XvDEaPsYbPNJhM
+        encrypted_possible_answer: rgPl59JjKT5c3g5Cn5Sn9wiE/vHVAcvGzYhhvhBzPDejSn9B3UzA3DZVoVTzLWkKU5aEv1OsTdNY4CnJbKzHf6yfgQa/Y7exGZW78M+Cmv4HjLWqMmSgxzzbI9//O5so
         selected: false
         status: Unchecked
     learner_created: false
@@ -18,7 +18,7 @@ files:
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Unchecked
 record: -1

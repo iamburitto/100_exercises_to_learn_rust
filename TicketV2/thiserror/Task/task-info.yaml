@@ -64,12 +64,12 @@ files:
           length: 6
           offset: 151
         initialized_from_dependency: false
-        encrypted_possible_answer: W3Rv+JgF6kxm+3Z8Oqcak3wfJjFPXHyenB/YPXojm44=
+        encrypted_possible_answer: uJzLegfY+VlVATjPN7nS2A==
         selected: false
         status: Unchecked
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Unchecked
 record: -1

@@ -1,0 +1,27 @@
+type: theory
+files:
+  - name: src/main.rs
+    visible: true
+    learner_created: false
+  - name: Cargo.toml
+    visible: false
+    learner_created: false
+  - name: editor_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: editor.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: run-program_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: run-program.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

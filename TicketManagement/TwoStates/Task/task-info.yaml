@@ -10,20 +10,20 @@ files:
           length: 10
           offset: 486
         initialized_from_dependency: false
-        encrypted_possible_answer: CsJMu/vgUNEub9muqXHs85x/PKG8Q1iyBYOWtI38/d4=
+        encrypted_possible_answer: G/BK/Qe7KzVBij1Hk7ZmPQ==
         selected: false
         status: Unchecked
-      - offset: 1072
+      - offset: 1074
         length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1072
+          offset: 1074
         initialized_from_dependency: false
         encrypted_possible_answer: EirIru374XcdyW9CBQSIpw==
         selected: false
         status: Unchecked
-      - offset: 1104
+      - offset: 1106
         length: 94
         placeholder_text: |-
           /* TODO */
@@ -32,17 +32,17 @@ files:
           }
         initial_state:
           length: 94
-          offset: 1104
+          offset: 1106
         initialized_from_dependency: false
         encrypted_possible_answer: gU0qedZzZPVkl2Vjyc1wcpIgEcnaRupOTpHrmKig+/TEVsX7sKWazFiCnCArzKkxwH3uE3nLkfh/Emsxr0DT2qo4oo9YfhRHabl/v1oJuEqnIfSn8waSNdpDaj9rRk10L3E//HXVAEi34t0yhyd4QG5/BwQuKHltnBbPTL3klFK3H54p+JX6zVzJLIZia7UY3M5Q1KLDkc0EVthVkSs3iEGmgOzLlB2AJ20jobdLC4NtLuYGd6PMKe9Pkrf5zpWuMOuM+UgInLj1WDpy6KUnngJmkNCr2W93ClRU4IAf7xUTKODSLOVAzZbFN3oV9SK1bzLOgl7QJEiEFPFygA1VA4OaWFC2FVxSftKVZ2PLL1hQGaOXRf0MO6Ko/k+seL63s2FIBWak5yyJzuRxOZtybEMMSVAKncL2MTKZk8qa97supgibcVFNPkRolRZSz5VyhLG93Qz5HqcbxiHdR9PJln7nbvjCqtVtyUOEkLha8CE=
         selected: false
         status: Unchecked
-      - offset: 1204
+      - offset: 1206
         length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1204
+          offset: 1206
         initialized_from_dependency: false
         encrypted_possible_answer: FAoCkwyi2JRZbR03R8AmhZqrlRA+G2gN0yPtDkDM1gJNKNr8xbBndOs34/xphidybxKFR1d+QFLrvKDtJWz73SfAG4z7Brf+dpHijZmc9ZNabCzBXQUcUDc6c9a4fkHOHCN6x2q275aJjBg0aBqi6O9EGR6AfwFVdKVHP9jPkpE=
         selected: false
@@ -52,7 +52,7 @@ files:
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Unchecked
 record: -1

@@ -8,27 +8,35 @@ pub mod store;
 
 #[derive(Clone)]
 pub struct TicketStoreClient {
-    sender: /* TODO */,
+    sender: todo!(),
 }
 
 impl TicketStoreClient {
-    pub fn insert(&self, draft: TicketDraft) -> /* TODO */, Overloaded/* TODO */.recv().unwrap())
+    pub fn insert(&self, draft: TicketDraft) -> Result<TicketId, todo!()> {
+        todo!()
     }
 
-    pub fn get(&self, id: TicketId) -> Result/* TODO */, Overloaded/* TODO */.recv().un/* TODO */ OverloadedError;
+    pub fn get(&self, id: TicketId) -> Result<Option<Ticket>, todo!()> {
+        todo!()
+    }
+}
 
-pub fn launch(capacity: usize) -> TicketS/* TODO */hannel(capacity);
-    std::thread::spawn(move || server/* TODO */Client { sender }
+/* TODO */
+
+pub fn launch(capacity: usize) -> TicketStoreClient {
+    /* TODO */
+    std::thread::spawn(move || server(receiver));
+    /* TODO */
 }
 
 enum Command {
     Insert {
         draft: TicketDraft,
-        r/* TODO */cSender<TicketId>,
+        response_channel: todo!(),
     },
     Get {
         id: TicketId,
-        r/* TODO */r<Option<Ticket>>,
+        response_channel: todo!(),
     },
 }
 
@@ -41,14 +49,15 @@ fn server(receiver: Receiver<Command>) {
                 response_channel,
             }) => {
                 let id = store.add_ticket(draft);
-        /* TODO */end(id);
+                todo!()
             }
             Ok(Command::Get {
                 id,
                 response_channel,
             }) => {
                 let ticket = store.get(id);
-                l/* TODO */            }
+                todo!()
+            }
             Err(_) => {
                 // There are no more senders, so we can safely break
                 // and shut down the server.

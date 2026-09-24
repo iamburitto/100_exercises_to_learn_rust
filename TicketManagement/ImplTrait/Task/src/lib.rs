@@ -32,4 +32,5 @@ impl TicketStore {
         self.tickets.push(ticket);
     }
 
-    pub /* TODO */
+    /* TODO */
+}

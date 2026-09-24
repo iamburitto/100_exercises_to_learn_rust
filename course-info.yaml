@@ -14,9 +14,11 @@ content:
   - TicketManagement
   - Threads
   - Futures
+  - FinalChallenge
   - GoingFurther
 additional_files:
   - name: Cargo.toml
+  - name: Cargo.lock
   - name: README.md
   - name: helpers/common/src/lib.rs
   - name: helpers/common/Cargo.toml
@@ -29,5 +31,8 @@ additional_files:
   - name: CONTRIBUTING.md
   - name: LICENSE
 mode: Study
+vendor:
+  name: JetBrains s.r.o.
+  url: https://plugins.jetbrains.com/vendor/JetBrains
 feedback_link: https://plugins.jetbrains.com/plugin/27805-100-exercises-to-learn-rust/reviews
 yaml_version: 6

@@ -3,8 +3,8 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
-      - offset: 1144
-        length: 69
+      - offset: 1147
+        length: 68
         placeholder_text: |-
           // TODO:
               pub fn title(self) -> String {
@@ -12,13 +12,13 @@ files:
               }
         initial_state:
           length: 68
-          offset: 1144
+          offset: 1147
         initialized_from_dependency: false
-        encrypted_possible_answer: Uy9qYUlCExHYSxtw26o/mm7FsfGRZpsgH0YUqDaHaeSJrw3QW2aVpXVDNPjlBu0Othzzt/ClBXQI8GfOO8E1dQ==
-        selected: true
+        encrypted_possible_answer: Uy9qYUlCExHYSxtw26o/mm7FsfGRZpsgH0YUqDaHaeSJrw3QW2aVpXVDNPjlBu0OIK6dLFxW5TV3TgnnPFuSug==
+        selected: false
         status: Solved
-      - offset: 1218
-        length: 69
+      - offset: 1220
+        length: 80
         placeholder_text: |-
           // TODO:
               pub fn description(self) -> String {
@@ -26,13 +26,13 @@ files:
               }
         initial_state:
           length: 80
-          offset: 1218
+          offset: 1220
         initialized_from_dependency: false
-        encrypted_possible_answer: jTLVaA9PYLlBxa7lRgQ61VYTKPgnHQ9gEjN+ir4wIcYJjLJndMwPqfZCqm8mZgMzGEXz17flNw/JDmWujxzLU7mHWbHEbskY1ZGVhF7MMUw=
-        selected: true
+        encrypted_possible_answer: jTLVaA9PYLlBxa7lRgQ61VYTKPgnHQ9gEjN+ir4wIcYJjLJndMwPqfZCqm8mZgMzGEXz17flNw/JDmWujxzLU3R1HCT1i5AmYqo6K4mf9PI=
+        selected: false
         status: Solved
-      - offset: 1292
-        length: 58
+      - offset: 1305
+        length: 70
         placeholder_text: |-
           // TODO:
               pub fn status(self) -> String {
@@ -40,20 +40,17 @@ files:
               }
         initial_state:
           length: 70
-          offset: 1304
+          offset: 1305
         initialized_from_dependency: false
-        encrypted_possible_answer: 4tzUqNxeBLPVaBBkXIL+4d1y17c13dhpYCMel7bRSv7s5mNtfMarEHCZ2FQhOxWAQVOPX+ndiC7QO6RTCGUFbw==
-        selected: true
+        encrypted_possible_answer: 4tzUqNxeBLPVaBBkXIL+4d1y17c13dhpYCMel7bRSv7s5mNtfMarEHCZ2FQhOxWAn0gaNSQji5uR53Y4yRTPWQ==
+        selected: false
         status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Sun, 09 Aug 2026 11:43:47 UTC"
 record: -1

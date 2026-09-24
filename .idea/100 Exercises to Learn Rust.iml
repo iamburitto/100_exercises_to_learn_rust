@@ -62,13 +62,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Futures/SpawningTasks/Theory/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GoingFurther/Epilogue/What next/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Introduction/GettingStarted/About/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Introduction/GettingStarted/CourseView/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Introduction/GettingStarted/Editor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Introduction/GettingStarted/ExternalLinter/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Introduction/GettingStarted/HelloWorld/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Introduction/GettingStarted/HelloWorld/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Introduction/GettingStarted/NavigatingAround/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Introduction/GettingStarted/TaskDescription/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Threads/AckPattern/Task/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Threads/AckPattern/Task/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Threads/AckPattern/Theory/src" isTestSource="false" />
@@ -294,6 +290,28 @@
       <sourceFolder url="file://$MODULE_DIR$/Traits/TraitBounds/Theory/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/helpers/common/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/helpers/ticket_fields/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/InterfaceTour/CourseView/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/InterfaceTour/Editor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/InterfaceTour/NavigatingAround/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/InterfaceTour/TaskDescription/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ABasicCalculator/OverflowAndUnderflow/Experiment/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/AboutTheCourse/About/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/AskAHuman/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/CanIUseAI/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/CompilerErrors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/FastTrack/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/FoundAMistake/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/ImStuck/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/InOrder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/InstallRust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/PeekSolution/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/FAQ/WhyNotEverything/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/SetUpYourIDE/SetUpYourIDE/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/Syntax/Task/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/Syntax/Task/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/Syntax/Theory/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/Syntax/Warmup/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction/Syntax/Warmup/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

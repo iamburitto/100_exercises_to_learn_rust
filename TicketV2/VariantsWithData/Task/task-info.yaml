@@ -3,14 +3,14 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
-      - offset: 1012
+      - offset: 1011
         length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1012
+          offset: 1011
         initialized_from_dependency: false
-        encrypted_possible_answer: jw75aVaBcvnIq7aLPlyXLsWGhW4EwbFlzCxriQnv8E83mAx0tGJr+cx+7Dd7dLKiWF0u4Bpi15aMp8tnoMkik73M6giyaScHHhosSNWIIBvVFUlUOfMwbhV+qSWaA5uhcRAq9PEq8TymDm/j8ZhjAN0WOu9zLjll93Oqqr+N+V7lT2F3VZI32Mjb/mphNw0vlXuwKU69Ess/JDg4gR1dx6BVteh27b+jRSGJnLhLA2w=
+        encrypted_possible_answer: kyzmFVltdISjXNkw5v0bor/u/qpSLZ2ARYxQY1qpgEaLLE8SjzMawVokTcKcRZIj9cVb6xUFneOogTTnMkIusVKlNekJnzQcZ4UBecUtC38o6wCRkpLTDuHogkX8a+ELRF5mafHQ2ntUpGAcvATUf8Awh+TVlfeXh6BgviekNP6w7y97RSTttrVNcA1Bz8IkhKIkvMBLTTiXayj8SAiBhO2Nfoa5kP7IRH5DDUdv93Y=
         selected: false
         status: Unchecked
     learner_created: false
@@ -18,7 +18,7 @@ files:
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Unchecked
 record: -1

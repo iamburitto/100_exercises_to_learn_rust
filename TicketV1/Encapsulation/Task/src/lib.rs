@@ -35,31 +35,6 @@ pub mod ticket {
         //  - `description` that returns the `description` field.
         //  - `status` that returns the `status` field.
 
-        // Here's how I did it at first:
-        //
-        // pub fn title(&self) -> String { self.title }
-        // pub fn description(&self) -> String { self.description }
-        // pub fn status(&self) -> String { self.status }
-
-        // Those functions only borrow the object with &self
-        //, but tries to give ownership of the String to the caller
-        // Moving that String "out" would leave self.* empty/invalid,
-        // even though the caller only lent you self,
-        // So Rust doesn't let you.
-
-        // Analogy: returning a read-only pointer into a C struct:
-        // the struct keeps ownership of the memory
-
-        pub fn title(self) -> String {
-            self.title
-        }
-
-        pub fn description(self) -> String {
-            self.description
-        }
-
-        pub fn status(self) -> String {
-            self.status
-        }
+        /* TODO */
     }
 }

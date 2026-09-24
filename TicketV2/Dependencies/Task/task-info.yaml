@@ -10,7 +10,7 @@ files:
           length: 6
           offset: 73
         initialized_from_dependency: false
-        encrypted_possible_answer: Mjc2Do/SuL1T8wcstjhtCAkoUlAvIW2W5Nw2KV1dAhZgvvfqcTMXj7iRRnsjJbt5
+        encrypted_possible_answer: Mjc2Do/SuL1T8wcstjhtCJOycGkpIPu4xBE23Fsxt/M=
         selected: false
         status: Unchecked
     learner_created: false

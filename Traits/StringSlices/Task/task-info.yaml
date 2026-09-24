@@ -3,34 +3,34 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
-      - offset: 975
-        length: 7
+      - offset: 977
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 975
+          offset: 977
         initialized_from_dependency: false
-        encrypted_possible_answer: nganVSVbRY3DRZ5M9xRXYQ==
-        selected: true
+        encrypted_possible_answer: Tf9c8oedbSvEpZfxODPsIA==
+        selected: false
         status: Solved
-      - offset: 1043
-        length: 4
+      - offset: 1050
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1048
+          offset: 1050
         initialized_from_dependency: false
-        encrypted_possible_answer: nganVSVbRY3DRZ5M9xRXYQ==
-        selected: true
+        encrypted_possible_answer: Tf9c8oedbSvEpZfxODPsIA==
+        selected: false
         status: Solved
-      - offset: 1111
-        length: 8
+      - offset: 1124
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1122
+          offset: 1124
         initialized_from_dependency: false
-        encrypted_possible_answer: nganVSVbRY3DRZ5M9xRXYQ==
+        encrypted_possible_answer: Tf9c8oedbSvEpZfxODPsIA==
         selected: false
         status: Solved
     learner_created: false
@@ -38,10 +38,7 @@ files:
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Sun, 13 Sep 2026 23:54:28 UTC"
 record: -1

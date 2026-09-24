@@ -3,6 +3,16 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
+      - offset: 414
+        length: 6
+        placeholder_text: String
+        initial_state:
+          length: 6
+          offset: 414
+        initialized_from_dependency: false
+        encrypted_possible_answer: Cr9QM3iCyj1nxRFfURHE2g==
+        selected: false
+        status: Unchecked
       - offset: 425
         length: 10
         placeholder_text: /* TODO */
@@ -20,25 +30,25 @@ files:
           length: 10
           offset: 458
         initialized_from_dependency: false
-        encrypted_possible_answer: /8cd/QDfiFMjAqsMx+jMSKlnt82EHc3XwH7VBqV10rdLic8P7OAEFUNPDmdXFmrE
+        encrypted_possible_answer: /8cd/QDfiFMjAqsMx+jMSHjs3CqG9sJQCD7vE/H4xOo=
         selected: false
         status: Unchecked
       - offset: 545
-        length: 10
-        placeholder_text: /* TODO */
+        length: 6
+        placeholder_text: String
         initial_state:
-          length: 10
+          length: 6
           offset: 545
         initialized_from_dependency: false
-        encrypted_possible_answer: u6z6FAVLyaFV8xpqt7NSdg==
+        encrypted_possible_answer: Cr9QM3iCyj1nxRFfURHE2g==
         selected: false
         status: Unchecked
-      - offset: 1231
-        length: 10
-        placeholder_text: /* TODO */
+      - offset: 1229
+        length: 6
+        placeholder_text: String
         initial_state:
-          length: 10
-          offset: 1231
+          length: 6
+          offset: 1229
         initialized_from_dependency: false
         encrypted_possible_answer: yefcBa1DWH84XHxWkDV1ng==
         selected: false
@@ -48,7 +58,7 @@ files:
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Unchecked
 record: -1

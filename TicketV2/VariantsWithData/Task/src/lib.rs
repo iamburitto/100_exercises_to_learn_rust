@@ -38,5 +38,6 @@ impl Ticket {
         }
     }
     pub fn assigned_to(&self) -> &str {
-        m/* TODO */    }
+        /* TODO */
+    }
 }

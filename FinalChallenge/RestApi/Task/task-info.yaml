@@ -1,0 +1,96 @@
+type: edu
+files:
+  - name: src/lib.rs
+    visible: true
+    placeholders:
+      - offset: 427
+        length: 83
+        placeholder_text: "/* TODO: bring into scope the crates (axum, serde, tokio) and\
+      \ std items you need */"
+        initial_state:
+          length: 83
+          offset: 427
+        initialized_from_dependency: false
+        encrypted_possible_answer: KWJfMzuceC5vRktND88HnkyIRPMhJ3pYZ3kJ/SpgaJEuwUvEvP+6cqeMbUnNZEiGRmMFV3YL81sV7CHNzP6nt/fVj7AVUK1B8eWuvuQYuzTF60/sCFD24pc83CHzCB1akdiiwz8s2WdvPHSrCvxwANEtjarRZWkUyHA2F7Bc2L1eOVKDqlpSndhFWcImVxLHP232O5Pn3QZeolPIlmYMj8GNNMujOSybpMZ3+nsNZn+dFur0M7+N48G+RfKHxryr8zl/mQ6P6ojqzboy6BL80gqzxmh1uCffW69Ki4cja64=
+        selected: false
+        status: Unchecked
+      - offset: 512
+        length: 76
+        placeholder_text: "/* TODO: define the `Ticket` and `Status` types plus the request\
+      \ payloads */"
+        initial_state:
+          length: 76
+          offset: 512
+        initialized_from_dependency: false
+        encrypted_possible_answer: cDOea20Tx5yuVpHqft535Yhx9XltFSyta8cF0qvvu7uMyJ26CncAG3g2TDSTBpCV6+8rwCoyogjMdLcNW9oSA8ASFhirp5GTRp8BrZBrbKuwpt3b6roolYN0WTu2KCl7fcK1xH6tlG4dvKODNKtu0MSN37CiHG/RtycLMnppA44EGVRefDeZfp1h0k8bMrGjea1b+LR3EX/c1SBYRqhmGN7Fn99cnx8mPTRJeWOtgORuQ9T87Kc55i5U0mWQ6jClGDMyIsZ+W9eW2scAwNatOJHyYWaXZg0QVSkzsOSMWp3lkuFvKQadQTomCn4S7BbZrPoucXmrecoaENz29EIMjNMZt+1rg0E6AXLR+J7DlNkCpzlrlY3gOjzAM6FIgq0d7NLzQ+V14GuhSUsZj5Zeevp11xcYhU7j06CVzOqgeOnXvchIOheNSgln0wn21A+dPcMIZxF5HGVohM/Ir3HvqmDA7+1kECx8XsCocl0fsaRwOEpgu4Jp1Z2nj4WexmvP62yhW86Ctv60msEXT8XsEAy7zXPQ7w9ciNoe2ohNEEWAjNHOdQOudmbYuV89Zf6XjcyJniNNTyh6hPc0r2lRfCEYaHeqYFb6n4J6J4vnpq+o1V5hYPDIDd/PMkvDpBxXoDvMYbhPlxdOjIYg1nNEuy2Zpv/VQIyLHme0KuSRJ2o=
+        selected: false
+        status: Unchecked
+      - offset: 590
+        length: 71
+        placeholder_text: "/* TODO: define the shared application state (a store behind\
+      \ a lock) */"
+        initial_state:
+          length: 71
+          offset: 590
+        initialized_from_dependency: false
+        encrypted_possible_answer: yCvz0C1suWqb/552nH2RN1nmk3SUiIXKQQyPfgj9F++rri1XXFE2LekW5kwQmNY5J7OP8ydXy2TlF7MPqlW2qAAyOXBMHlwH/LfteqiIgGs1R7xfKchbnBL0Tbtnku7r/MzlwQTCrFYD51m8lKbEjFJaX9NuZHaE9/2q1kVKoppO3g8ZbtR7ytkMn4MHv/y2s+wbAR+u7Bo/DKrOIwLd3S0WUaMXPWtu3IcTVSCXEdGMKM5a1Wwtcflq2NBCe49LKMnKqOin1aSl9Uo68lic+6rsldIjH1OOYWwp3RTyn8qOs4S8QpY0JMMNOLa8gnHGJC7o6mAAAWrgrphC6iMcFqN6apVMSkf2hhQx0KfNvhWGDz4ZfF89n0jLRbCltBUmVBnPbhbqebzw+UfD5ZTS5w==
+        selected: false
+        status: Unchecked
+      - offset: 663
+        length: 62
+        placeholder_text: "/* TODO: implement the create / list / get / patch handlers\
+      \ */"
+        initial_state:
+          length: 62
+          offset: 663
+        initialized_from_dependency: false
+        encrypted_possible_answer: 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
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: src/main.rs
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 88
+        placeholder_text: "/* TODO: bring the router helpers, shared-state wrapper, and\
+      \ your handlers into scope */"
+        initial_state:
+          length: 88
+          offset: 0
+        initialized_from_dependency: false
+        encrypted_possible_answer: qZaxFAFrOQ0Z1dWRT4gXKrThaPIOxZI/1phMgvvY7DteRi472WGRBJe1HpH6wxAhxxWRSelWJFuvSJeu57fDDv/XM6i3suDT7lyWMlAlJ5aorwo+QAcebFRGSsUN21uuJsERxRf2zEMJ7O5RrC07rIkQH3Dqf3VJ5Tm0agXGsDA9F1CMdO9t/JPPJpjJJY20WAYutbtafeyrYT4JS/r7bQ==
+        selected: false
+        status: Unchecked
+      - offset: 90
+        length: 122
+        placeholder_text: "/* TODO: define the async entry point: build the router, attach\
+      \ the shared state, bind a TcpListener, and serve the app */"
+        initial_state:
+          length: 122
+          offset: 90
+        initialized_from_dependency: false
+        encrypted_possible_answer: OI/VyhwVtKcBLYvWKN/wmFLRsCjptNPPXaQn1pcmvxHauPdVMLD60CJyFy7SSS3KuNVsdBNQDX/tYcE+18Yl9aTy8xp17rfqF9ra4j5OlVzzCIQBEyM0aOCe7m3QNcUwU2mSiaB3sYpNxjMmG7woG6LyHM0gWezf4yA2wOtK9RDepz8LN+V4zHvkfPhqLpYtbATI/hjGofTdEKz7KgG5QqNvsHp7fBCKvbhOYkL8eMsT12zdqhby6al3Zg5RLxT9HWRP7Ryhomxi2+4w0MMYUoWCv+JXzwwE8/3MW6FljyUJbXcDfrapa2/xdMyz69/M+Q8HSLvQ7z9eM502F1N7oy/E+8iS+FUotGnXt1PywR5A4RV4dIaf9hU5iMAxgteHMjHYWKng/HkLwLNiTjhObA46LV8/AJL1sA4fEJnV2Xud5pVfypzGwtXw2CL3qNz/RvFst/14r1MtmSIMghvWS+CIjNcdRkx5WKXfAH+mb9eDZlLhwUrRLepX5DjXfDg7FcRIWfL9Qr11CJNFYEFo7Vsit1m5clZFUlqP5EBwykpzEWfTI3AOPg7ux7UIC02QYxGo6uSVVYVlNmA0o0KZ+0lRFWskt3B4TSgeREyKoS47bg5Gwi3L7jvfflOKUQmUCaScoxnjMmJ7oEjCNnGEMFx9WiN4+BMGnMjYgP6sHXHGoWZ79G/accj+b1u9z+O/JoEKQ6FYPT4gDvE9fgUq687qXtdiXqRQAYkRxxrLj5k=
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: Cargo.toml
+    visible: true
+    placeholders:
+      - offset: 86
+        length: 63
+        placeholder_text: "# TODO: add the dependencies you need (axum, serde, tokio,\
+      \ ...)"
+        initial_state:
+          length: 63
+          offset: 86
+        initialized_from_dependency: false
+        encrypted_possible_answer: /4FPrvefR6EXJ0kDl58zNg6diEEzmQC5AiwVedbgFNWbAvAeYhP+OpVRpjpOMwHiVJZemK5KLR2wGtOGYSt29RxY3IPOpgxIgiY4V/yNQi0o0+r2jqF7kVBT/l9Vr4luUaImg0BKDohCuEKuGfAKEA==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: requests.http
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1

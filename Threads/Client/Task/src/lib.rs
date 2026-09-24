@@ -14,18 +14,18 @@ pub struct TicketStoreClient {
 impl TicketStoreClient {
     // Feel free to panic on all errors, for simplicity.
     pub fn insert(&self, draft: TicketDraft) -> TicketId {
-        /* TODO */
+        todo!()
     }
 
     pub fn get(&self, id: TicketId) -> Option<Ticket> {
-        /* TODO */
+        todo!()
     }
 }
 
 pub fn launch() -> TicketStoreClient {
     let (sender, receiver) = std::sync::mpsc::channel();
     std::thread::spawn(move || server(receiver));
-    /* TODO */
+    todo!()
 }
 
 // No longer public! This becomes an internal detail of the library now.

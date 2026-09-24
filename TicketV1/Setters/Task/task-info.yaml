@@ -3,8 +3,8 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
-      - offset: 470
-        length: 203
+      - offset: 478
+        length: 576
         placeholder_text: |-
           // TODO:
                   if title.is_empty() {
@@ -24,80 +24,77 @@ files:
                   }
         initial_state:
           length: 576
-          offset: 477
+          offset: 478
         initialized_from_dependency: false
-        encrypted_possible_answer: 9vA1RiqEB5RogCiXeDcX0eoBESx8lGPXPA2qqWd5/KrN4k3y3Pt6xs/Dh/gCX405Opoxbb+xlPzHJ5Xde5AnV3TJH/VYSpzyn8dow1iFlFSJ9Lzy2UxY4v66iWQZupaqcL+kavSXsbo0Ilb8C3SEjA==
-        selected: true
+        encrypted_possible_answer: mJIOokgGrpc8f94YRwXhcJhnr+IM6CRXWaLBvhknp9x9MXQ32CUDo65FmIBKtJeQssrzteFxvamup+amxWY1oPjgCYiQdjRT9GpqxDMwaO+SfS56Eegt7f7ER2my6wRxd4ODMXKG6NwFllDZmPbroA==
+        selected: false
         status: Solved
-      - offset: 904
-        length: 598
+      - offset: 1364
+        length: 21
         placeholder_text: "/* TODO: set_title */"
         initial_state:
           length: 21
-          offset: 1363
+          offset: 1364
         initialized_from_dependency: false
-        encrypted_possible_answer: IMAtM8xZxJkrlYKSDSqyxSx/ZQtHZajK4MPOQ/vN7hcT2FPs98u+tk72/n8Ot1tFqpeUmx18PP78N+rP3/Ybttdmtq4ByCh21T7HXbgBI5OAZJGo57kLL22Bz+3k8GSiZr4fDgMXjxztP9MLAaVivQ==
-        selected: true
+        encrypted_possible_answer: TSzgK/MIml6DS59oMW7v5nywU0QNoan9NmeEW+261krZvU4Urh6IISCScuz+5mbdX2zQK4W1oK1uKc1YpdbzuHZQWR01sZw7Ff4BLPYkQwZjdkf2/dw4FB4arc0s5sUTQ0n6MOKjkWN/2y3Ye+/IGA==
+        selected: false
         status: Solved
-      - offset: 1502
-        length: 0
+      - offset: 1391
+        length: 27
         placeholder_text: "/* TODO: set_description */"
         initial_state:
           length: 27
-          offset: 1390
+          offset: 1391
         initialized_from_dependency: false
-        encrypted_possible_answer: YA7pFZTNAuhyiQMonmM2MofTmNIzxkSfKBVugZC+TgSu/nVY64BRqcl7DwwCmOL9U3XanP1+ocmL1Y/6SO3OQsZc35Nz8/wjtaCbf34lRNFG3xGhjRNjIo+ZkyE+oVtfrfasYpj1Oaj2dsx2Wut1o1ERtKZzrKiCceMaECEa69/zW3U4uurx1vDy39Kig6Wp5c/pKp6OqGxhfJ/N8czyAw==
-        selected: true
+        encrypted_possible_answer: pn7apY2vjW/pRfpD1v6ncdaoToQZGDTx6UIpGJWUmtoPII28Fd5EKlnDmdw58VPE69gjdfh/HzH86+bkiyXxYRGhVWzcV1qXdWnGE69w3TDte/nRecHdZmE3mPib1CPygF9RZ6SxWChbqDYxnQGofKfHUMzMrLOWX1vLzP2ozj3cg3JenPUu2Zr0A1BgRu85ToNHVLtX3AXFGC9WFQ8OEg==
+        selected: false
         status: Solved
-      - offset: 1502
-        length: 0
+      - offset: 1424
+        length: 22
         placeholder_text: "/* TODO: set_status */"
         initial_state:
           length: 22
-          offset: 1423
+          offset: 1424
         initialized_from_dependency: false
-        encrypted_possible_answer: KyW1I380dcR18SF0Z7Zz4OWL5Kp6biDLQYkTwPdsSJGELMPq6iKjZj4qmka74ui163graqR3MY9iDUsrDISBUhoEba2bnpmQVSDCP9a+j6WPcwjAaqFGsXcGajlYQmqkWY9CGFAbNKziJghBvT4+rVENAOCu8aujrK52vgKFElk=
-        selected: true
+        encrypted_possible_answer: DV8dgWeo2m/Ar2IKCb+tITySQGYPGUcOHdpk0KKUuxuXQDzND/kCRswQ7iiPiDHpZM8nEJH5Sg3+vSx6QTQokhkOATwIQoZ4rk9ruOj/gyUUFYGNA6UnVqYcmLNrqsVtBaGCVMFF4Bw1JZ77UgLh0fJFZcb5BlP8EQOixJ7ri4c=
+        selected: false
         status: Solved
-      - offset: 1543
-        length: 85
+      - offset: 1490
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1489
+          offset: 1490
         initialized_from_dependency: false
-        encrypted_possible_answer: ZSt0cZlNbYVPqOQC0tPdaFuQ30QS/hLx9TA4DffUNr814pSrBVJ7p1vjhycckvuqPpQaApngf9jcVmJ3yJNuysNbTNJ++7WBmSpvo4Lc8uHIYgIgYKH/NwsrTwg+yuvYGGl8Jq6gZ4sbBjzTAw/gI3J/yR1olXHWicOKK1un+U1Rb2PYRIM/Y2uhTygF2ev+bLwQL3QwHqqvAnRCa0m6yQ==
-        selected: true
+        encrypted_possible_answer: JAE780RrHkgO9Jtiyi4WnDVAAP2UmmnuKdDk4yeWR439u0L5pT8Ut97ZMJtRVCnDhVBnWkQQYd7Y+VFCEOahfxNP3hijQ5hVW27cW8wBlsf8iaECj9/VvmHOGiN1xHDaTD2bwrgwhq4dj643uynoJT1jvVEJZEVfSJRSauN7tbibQ3PMsPQhDa98/OcEtwa8B/jf2seYRsvKZpE9p1x/kA==
+        selected: false
         status: Solved
-      - offset: 1757
-        length: 184
+      - offset: 1556
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1555
+          offset: 1556
         initialized_from_dependency: false
-        encrypted_possible_answer: G1xDa6NBIQGSm0h9aWteho9uK/SGQGOtqjqAZxphU7HZRFsS9VcaKT0AKfZYLSO4HSTKhmJ3r4djtHw+U0u8hPLvUQbx/zBxGMBm2R1XJOHLiyXn6lektWJ41mrsvkBnPpNWTlSuiU97i4UT7ZLzwco6ZtHxcIoxw1dB7bNJqquSdYoIiOoHPfhWso5UpgAVLn53IPVxyeLtc08BlcsZTpoyRxtCJ+rC4jgnRkiXISOEYjIcogKAPPg1Carb4boE
-        selected: true
+        encrypted_possible_answer: avPxDXVCetSmHMakXjpt+OVazaOKcJFI1YQ8sHqkX8YZVSe8HAWuJONTisYkiic18AtfUAlAh2msMGas+nyaqV0gMOfZjxRMzy+s/rXuw7n2pVVJTYsyMtSDuqa5gf5viK+uAwdah0EQetm9lht25/FTt78DaAbO49dysfzh8rLXxXuodToUxHi9jny+T/rrqHX3Eq+z8iEpBFI5VwwtVeX4qacPlrBjGdF5m9cJmBlaO850QhSr26MnphpJaWp0
+        selected: false
         status: Solved
-      - offset: 1987
-        length: 150
+      - offset: 1612
+        length: 10
         placeholder_text: /* TODO */
         initial_state:
           length: 10
-          offset: 1611
+          offset: 1612
         initialized_from_dependency: false
-        encrypted_possible_answer: sOgZwp+PakpxFEwDvSMAejhlK9jo1ek2mMCw8XuhV5778HI7MZYqsxg042dayFTc5fVSsW7pzFYX/dQ+Yv3PYWE77a9D+bBKqsmtfMLmPHkvfRawWHuGoozS5znJoXKnF4zcFdzsCQley65uZCGmpQayhpPYJhPk5KAyGJUiTHjzFSeArlgkw2o/e8XQPS25rsVXg3W/1Z/bq6+cb29Ncw==
-        selected: true
+        encrypted_possible_answer: 6BwFbwWK8q9k6agAdcHtYLayZNjlkHeptj3l/mOYdMm0tZ8jmvCaE30Gw/gT6UHw8SXUormOZyW2zZ0mdAG5XXZzOH5aP+GmkjFzASnfelLMvo/hjE61kPxwIXqLUekD+EqKDD7GHsowWuAVoY+cKrF94KyHb12rb1T8/Tg4KfhxckR4Q1al2iWDfnI8XY1olAvLquIdCzc8K+BxCoptzA==
+        selected: false
         status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
     learner_created: false
   - name: tests/tests.rs
-    visible: false
+    visible: true
     learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Mon, 10 Aug 2026 02:41:16 UTC"
 record: -1
