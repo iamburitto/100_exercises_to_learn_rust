@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Solved
+        status: Unchecked
       - offset: 146
         length: 10
         placeholder_text: /* TODO */
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Solved
+        status: Unchecked
       - offset: 282
         length: 10
         placeholder_text: /* TODO */
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Solved
+        status: Unchecked
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -49,7 +49,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: EOTOO/5n26iaIkmoLM+7mS//mjdbPxsGLvQjvFp1xHbcgQ83lJZwd4WXS7eFoofHNDAm5/ZuExt0GF59Jg0Olg==
         selected: false
-        status: Solved
+        status: Unchecked
       - offset: 1860
         length: 126
         placeholder_text: "let ticket = Ticket {  \n\t\t\t title: \"A title\".into(),\n\
@@ -61,7 +61,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: uSvVUbcBDR3MnUPUTrev87/o/03CRnVs/4/Q0NgPc4dzGWNU27KbcTpjoTsub9/JrDX8o8B0N/hg4/RSMoPeKTU+GTLHymB9iXkuNHKMhnKCtB6Uc5/mQrMAzhRSG6r6nQuZKjiMVFV52Tgs3WA3ufpW59GVE73wGPbxW+kCmDVtE0qlGtv+lzzC5G/6FCV0DwJ/SjVTksk0VWPxi+hKDFNtXHKFw5mO190onHzese4=
         selected: false
-        status: Solved
+        status: Unchecked
     learner_created: false
 status: Solved
 record: -1

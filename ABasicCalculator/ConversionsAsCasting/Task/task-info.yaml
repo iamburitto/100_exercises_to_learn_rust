@@ -18,7 +18,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 4w33P5f+Ces/HqPWq0IorA==
         selected: false
-        status: Solved
+        status: Unchecked
       - offset: 918
         length: 10
         placeholder_text: /* TODO */
@@ -28,7 +28,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: RESya3fqSV1DFqjsTgSSYQ==
         selected: false
-        status: Solved
+        status: Unchecked
       - offset: 1018
         length: 10
         placeholder_text: /* TODO */
@@ -38,7 +38,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: oa+nVSRiKi7L3SNrfCrSCA==
         selected: false
-        status: Solved
+        status: Unchecked
     learner_created: false
 status: Solved
 record: -1

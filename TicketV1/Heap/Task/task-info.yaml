@@ -17,8 +17,8 @@ files:
           offset: 365
         initialized_from_dependency: false
         encrypted_possible_answer: 4u9IE3F99Jcjrxaln91bLA==
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
       - offset: 813
         length: 2
         placeholder_text: /* TODO */
@@ -28,7 +28,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: s+ppChE6sxgIzsfoiQXMOQ==
         selected: false
-        status: Solved
+        status: Unchecked
     learner_created: false
 status: Solved
 feedback:
