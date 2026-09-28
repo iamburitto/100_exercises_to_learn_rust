@@ -20,10 +20,10 @@ impl Ticket {
     }
 
     pub fn title(&self) -> &str {
-        /* TODO */
+        self.title.trim()
     }
 
     pub fn description(&self) -> &str {
-        /* TODO */
+        self.description.trim()
     }
 }
