@@ -4,17 +4,17 @@ files:
     visible: true
     placeholders:
       - offset: 693
-        length: 10
+        length: 17
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 693
         initialized_from_dependency: false
         encrypted_possible_answer: VcVA+0rTrQvedl3mMuIKOVLf65r0Qrn7iM9g5pN2etY=
-        selected: false
-        status: Unchecked
-      - offset: 759
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 766
+        length: 23
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 33+kzGyrEh7dmN/cLgBTT7kTqir7aaprY9nlYqnLA40=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -31,4 +31,7 @@ files:
     visible: true
     learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 28 Sep 2026 19:57:22 UTC"
 record: -1
