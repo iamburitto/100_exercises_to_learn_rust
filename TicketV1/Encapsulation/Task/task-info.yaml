@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 5MbBleyFvKM6IieHTDmtnt5aI8RlqPLLDibFxhlp62nAmaXerh+20t6f6J9fMA0sVLe+9lMOlAeX/tfHvXZhi7SfQ7CGtP/Nc/1/aXb6j6I9oqGTKc48oPZSzPLmDkCYOx6BShBtH/ujGOws/ZPjcwU9eBM2U7VgIq5Iyej7AytOMVTA7XTU2yFaGNGAPHu++nJgVyyNEkm2I5MZryxxiEG6LpHazIKfEkiJTULJ7ekf9mk2AlXAroQfjRnEp8bQD+aHHCjRxiUSiycBmARDyRVdoU3Ml0c6SgUkb/xldoU=
         selected: false
-        status: Solved
+        status: Unchecked
     learner_created: false
   - name: Cargo.toml
     visible: false

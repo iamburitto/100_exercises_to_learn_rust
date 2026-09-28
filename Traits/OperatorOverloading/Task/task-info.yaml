@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: GDIwdp5DT9kpsRacAGmusavB1NUYfZSL1DJw+vbJYg0HkVTziJqSzyzcdUkqKm9uaKkTQ53anJj8Yu4EEuMIt+q7G6WjZBh/J37CCBXOorxcqwDnXJnX/Qwae1yNfx8hIigzd6AUQTPcmLcx0Galx17taM4cwGdim62ZgWQ7aQs/4+98kiSNule3t5/c6Z/mkApkhxKgCDeDvOeqIAIH0hv38sKF3wkzahv0wT7wpGc=
         selected: false
-        status: Solved
+        status: Unchecked
     learner_created: false
   - name: Cargo.toml
     visible: false

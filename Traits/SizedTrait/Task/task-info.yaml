@@ -11,8 +11,8 @@ files:
           offset: 227
         initialized_from_dependency: false
         encrypted_possible_answer: XNqJtMQ/PVCsbAM71fqJfYY5tIqNfKHRDYPe0wNRcLg=
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
     learner_created: false
   - name: Cargo.toml
     visible: false

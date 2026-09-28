@@ -11,8 +11,8 @@ files:
           offset: 15
         initialized_from_dependency: false
         encrypted_possible_answer: Hxbq6GOn5ppAgNRhNYV9Pw==
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
     learner_created: false
   - name: Cargo.toml
     visible: false
