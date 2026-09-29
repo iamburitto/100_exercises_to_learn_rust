@@ -16,7 +16,7 @@ pub enum Status {
 }
 
 impl Ticket {
-    pub fn new(title: String, description: String, status: Status) -> /* TODO */ {
+    pub fn new(title: String, description: String, status: Status) -> Result<Ticket,String> {
         if title.is_empty() {
             return Err("Title cannot be empty".into());
         }
@@ -30,6 +30,6 @@ impl Ticket {
             return Err("Description cannot be longer than 500 bytes".into());
         }
 
-        /* TODO */
+        Ok(Ticket { title, description, status })
     }
 }
