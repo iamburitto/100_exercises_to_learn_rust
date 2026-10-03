@@ -11,8 +11,8 @@ files:
           offset: 414
         initialized_from_dependency: false
         encrypted_possible_answer: Cr9QM3iCyj1nxRFfURHE2g==
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
       - offset: 425
         length: 10
         placeholder_text: /* TODO */
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: rI2CgUVE9RtmedI5+2w1djIb6NJJN5TV7IzE0JqqwR1aRWxTXmDWIqTJ5OEOSik+
         selected: false
-        status: Solved
+        status: Unchecked
       - offset: 499
         length: 31
         placeholder_text: /* TODO */
@@ -31,8 +31,8 @@ files:
           offset: 458
         initialized_from_dependency: false
         encrypted_possible_answer: /8cd/QDfiFMjAqsMx+jMSHjs3CqG9sJQCD7vE/H4xOo=
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
       - offset: 607
         length: 6
         placeholder_text: String
@@ -41,8 +41,8 @@ files:
           offset: 545
         initialized_from_dependency: false
         encrypted_possible_answer: Cr9QM3iCyj1nxRFfURHE2g==
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
       - offset: 1291
         length: 6
         placeholder_text: String
@@ -51,8 +51,8 @@ files:
           offset: 1229
         initialized_from_dependency: false
         encrypted_possible_answer: yefcBa1DWH84XHxWkDV1ng==
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
     learner_created: false
   - name: Cargo.toml
     visible: false
