@@ -2,25 +2,42 @@
 //   When the description is invalid, instead, it should use a default description:
 //   "Description not provided".
 
+// Long version:
+
+// pub fn easy_ticket(title: String, description: String, status: Status) -> Ticket {
+//     let new_ticket = match Ticket::new(title.clone(), description, status.clone()) {
+//         Ok(ticket) => ticket,
+//         Err(err) => {
+//             let fallback_ticket = Ticket {
+//                 title,
+//                 description: String::from("Description not provided"),
+//                 status,
+//             };
+//             match err.as_str() {
+//                 "Title cannot be empty" |
+//                 "Title cannot be longer than 50 bytes" => {
+//                     panic!("{err}?")
+//                 },
+//                 _ => fallback_ticket
+//             }
+//         }
+//     };
+//     new_ticket
+// }
+
+// Shorter version:
+
 pub fn easy_ticket(title: String, description: String, status: Status) -> Ticket {
-    let new_ticket = match Ticket::new(title.clone(), description, status.clone()) {
+    match Ticket::new(title.clone(), description, status.clone()) {
         Ok(ticket) => ticket,
-        Err(err) => {
-            let fallback_ticket = Ticket {
-                title,
-                description: String::from("Description not provided"),
-                status,
-            };
-            match err.as_str() {
-                "Title cannot be empty" |
-                "Title cannot be longer than 50 bytes" => {
-                    panic!("{err}?")
-                },
-                _ => fallback_ticket
+        Err(error) => {
+            if error.contains("Description") {
+                Ticket::new(title, "Description not provided".to_string(), status).unwrap()
+            } else {
+                panic!("{error}");
             }
         }
-    };
-    new_ticket
+    }
 }
 
 #[derive(Debug, PartialEq, Clone)]
