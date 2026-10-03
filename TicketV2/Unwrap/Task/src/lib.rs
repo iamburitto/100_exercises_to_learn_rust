@@ -3,7 +3,24 @@
 //   "Description not provided".
 
 pub fn easy_ticket(title: String, description: String, status: Status) -> Ticket {
-    /* TODO */
+    let new_ticket = match Ticket::new(title.clone(), description, status.clone()) {
+        Ok(ticket) => ticket,
+        Err(err) => {
+            let fallback_ticket = Ticket {
+                title,
+                description: String::from("Description not provided"),
+                status,
+            };
+            match err.as_str() {
+                "Title cannot be empty" |
+                "Title cannot be longer than 50 bytes" => {
+                    panic!("{err}?")
+                },
+                _ => fallback_ticket
+            }
+        }
+    };
+    new_ticket
 }
 
 #[derive(Debug, PartialEq, Clone)]
