@@ -4,35 +4,35 @@ files:
     visible: true
     placeholders:
       - offset: 427
-        length: 10
+        length: 299
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 427
         initialized_from_dependency: false
         encrypted_possible_answer: CQ9eNy5Dnd4Jr3WyV2l20Ft3pg89ERHjHenbBbLTTsMor4XPjUmRFe5tTbcQrotxtraylE7pm8Q2NPD0qEDCzZdrL0VOgRPwztjyh6AzeLhw1aCEg7Gu20NdFn9UTfU/gUPnXqq2Zc3jLwW8+jviGxV+gXqqQqRocT4rjs3Sc5jnQm97gv3A4ecnk05Lsxb7NrYL2gYtpLv0ygjPGSCqdL30heXU1Xui/McrrZziasIev5yDRu1nVVwnX371GVDbdB31t7eEq8hyOZHv4F8UjAiGqE10bGCUffaBNJkyKmODJoUK83iynom9F9J2HODxz97Ej/IUzukvypci95LliEBXvvUi2EVuaBakvopQOUf9Br9Xo4/tGANGGs3QeCd1WTPevnwxs997C96NaLV3GQ==
-        selected: false
-        status: Unchecked
-      - offset: 439
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 728
+        length: 44
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 439
         initialized_from_dependency: false
         encrypted_possible_answer: trKG3p/F6UE1nEks0QRpmR4uBKoKEmRm/4zEdxxiMNx8VIm8xPVpIT06nsWvwiXU
-        selected: false
-        status: Unchecked
-      - offset: 812
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 1131
+        length: 418
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 812
         initialized_from_dependency: false
         encrypted_possible_answer: /FHs50IIPvu202p529w3orgOrrxsB121BPUMW03h4mnxGdw6DaiOfMu5p2C/qlGAACwskZeaFj6YnfymFFAv3hSGlPIlG4l+7eS5+1F2u6Fi8ONKQCq4YFgBnOr6MPUP7ovOmNE57OjhXO39IzE8fUUwNKlEcgzDIlNgiaLVOLhOZ8afKrt1VGniprYWa217NdAyQGDSznT1sWe7tg4Olxb2Wpa/peuoIQO/3aJLO/fOtjnLrWkHlm25Tgy1IB6QbeDVgOWD3zgZzMQYuEQhL/JQV7sOANgrBbJLF7tQ134iXx5AdooR2tzy/w6kJZ7R/OH0SpWa9SvV6UbVpktuU3cMxerFNxF7aGRvIHKdyOEbUrwsTuB6hxNMUgs4ejd85h8QvGCiy7PCukYtZ19j4HnpTg5ArG4AQ1eWk38tHMol7KlhAO9nsNlsX9qGxxdxRjRk/0eXtHCWt6onIcqBaiAzNndeZvzDs0o6fPbk+/A=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -40,5 +40,8 @@ files:
   - name: tests/tests.rs
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 03 Oct 2026 08:48:27 UTC"
 record: -1
