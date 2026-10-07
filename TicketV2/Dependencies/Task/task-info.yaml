@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 73
-        length: 6
+        length: 9
         placeholder_text: "# TODO"
         initial_state:
           length: 6
@@ -24,4 +24,8 @@ files:
     visible: true
     learner_created: false
 status: Unchecked
+feedback:
+  message: "Failed to launch checking. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#failed_to_launch_checking\"\
+    >the Troubleshooting guide</a>"
+  time: "Wed, 07 Oct 2026 05:31:41 UTC"
 record: -1
