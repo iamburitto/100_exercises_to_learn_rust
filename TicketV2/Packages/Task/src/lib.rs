@@ -1,1 +1,2 @@
-/* TODO */
+pub fn hello_world() {
+}
