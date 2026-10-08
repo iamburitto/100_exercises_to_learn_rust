@@ -3,15 +3,19 @@
 //   a `String` field into each variant.
 //   You'll also have to add `thiserror` as a dependency in the `Cargo.toml` file.
 
-/* TODO */
+use std::io;
+use std::io::Error;
+use thiserror::Error;
+
+#[derive(Error, Debug)]
 pub enum TicketNewError {
-    /* TODO */
+    #[error("Title cannot be empty")]
     TitleCannotBeEmpty,
-    /* TODO */
+    #[error("Title cannot be longer than 50 bytes")]
     TitleTooLong,
-    /* TODO */
+    #[error("Description cannot be empty")]
     DescriptionCannotBeEmpty,
-    /* TODO */
+    #[error("Description cannot be longer than 500 bytes")]
     DescriptionTooLong,
 }
 
