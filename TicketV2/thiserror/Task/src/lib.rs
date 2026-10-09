@@ -3,11 +3,7 @@
 //   a `String` field into each variant.
 //   You'll also have to add `thiserror` as a dependency in the `Cargo.toml` file.
 
-use std::io;
-use std::io::Error;
-use thiserror::Error;
-
-#[derive(Error, Debug)]
+#[derive(thiserror::Error, Debug)]
 pub enum TicketNewError {
     #[error("Title cannot be empty")]
     TitleCannotBeEmpty,
