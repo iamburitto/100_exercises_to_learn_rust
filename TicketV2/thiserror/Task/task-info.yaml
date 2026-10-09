@@ -3,8 +3,8 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
-      - offset: 295
-        length: 79
+      - offset: 294
+        length: 35
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -13,7 +13,7 @@ files:
         encrypted_possible_answer: rI2CgUVE9RtmedI5+2w1drKzY15KF7RR4nu2ikw4yWkpUjR34JZ2IwMHcXZQ7EHi
         selected: true
         status: Solved
-      - offset: 405
+      - offset: 360
         length: 33
         placeholder_text: /* TODO */
         initial_state:
@@ -23,7 +23,7 @@ files:
         encrypted_possible_answer: lVih2tsEJCYuU1WivjojQiHBVjAP8ioHWfcoAxfypau07Sbh4S1K7UbJ9REuiC9D
         selected: true
         status: Solved
-      - offset: 467
+      - offset: 422
         length: 48
         placeholder_text: /* TODO */
         initial_state:
@@ -33,7 +33,7 @@ files:
         encrypted_possible_answer: lVih2tsEJCYuU1WivjojQoiintVjCBp5uh2P/UxCRgu0rbIVXWIdCMxg1aGQkLqw94W/De0D0H7GyCniNN9CFA==
         selected: true
         status: Solved
-      - offset: 538
+      - offset: 493
         length: 39
         placeholder_text: /* TODO */
         initial_state:
@@ -43,7 +43,7 @@ files:
         encrypted_possible_answer: hXWspPyU8B8uDyU9AuK9BT5kIRGCAS/Vq/i+IDMPFUa1curQjJeJPEj17pheJpUy
         selected: false
         status: Solved
-      - offset: 612
+      - offset: 567
         length: 55
         placeholder_text: /* TODO */
         initial_state:
@@ -74,5 +74,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 08 Oct 2026 05:56:16 UTC"
+  time: "Fri, 09 Oct 2026 02:39:04 UTC"
 record: -1
