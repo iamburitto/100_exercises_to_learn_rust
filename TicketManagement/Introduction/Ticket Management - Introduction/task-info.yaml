@@ -11,8 +11,8 @@ files:
           offset: 74
         initialized_from_dependency: false
         encrypted_possible_answer: pbp6sFlLMrw4+dfw5jlE9Rf6uA524byg7jFHzBYVaNhB4e1mz3nOqr0u0LiVw6kt
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -20,5 +20,8 @@ files:
   - name: tests/tests.rs
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 09 Oct 2026 03:21:37 UTC"
 record: -1
