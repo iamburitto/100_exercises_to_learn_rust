@@ -13,6 +13,28 @@ mod status;
 // TODO: Add a new error variant to `TicketNewError` for when the status string is invalid.
 //   When calling `source` on an error of that variant, it should return a `ParseStatusError` rather than `None`.
 
+// #[derive(thiserror::Error)]:
+// this is the syntax to derive the Error trait for a custom error type, helped by thiserror.
+// #[error("{0}")]:
+// this is the syntax to define a Display implementation for each variant
+//   of the custom error type. {0} is replaced by the zero-th field of the variant
+//   (String, in this case) when the error is displayed.
+
+// A field annotated with the #[from] attribute will automatically be used as the source
+// of the error and thiserror will automatically generate a From implementation to
+// convert the annotated type into your error type.
+// use thiserror::Error;
+//
+// #[derive(Error, Debug)]
+// pub enum MyError {
+//     #[error("Failed to connect to the database")]
+//     DatabaseError {
+//         #[from]
+//         inner: std::io::Error
+//     }
+// }
+
+
 #[derive(Debug, thiserror::Error)]
 pub enum TicketNewError {
     #[error("Title cannot be empty")]
@@ -23,7 +45,8 @@ pub enum TicketNewError {
     DescriptionCannotBeEmpty,
     #[error("Description cannot be longer than 500 bytes")]
     DescriptionTooLong,
-    /* TODO */,
+    #[error("{0}")]
+    InvalidStatus(#[from] ParseStatusError),
 }
 
 #[derive(Debug, PartialEq, Clone)]
@@ -50,6 +73,15 @@ impl Ticket {
 
         // TODO: Parse the status string into a `Status` enum.
        /* TODO */;
+
+        // the ? operator will automatically convert the error type of the fallible operation
+        // into the error type of the function, if a conversion is possible
+        // (i.e. if there is a suitable From implementation)
+
+        let status = Status::try_from(status)?;
+        // let status = status.try_into()?; // also works
+
+
 
         Ok(Ticket {
             title,
