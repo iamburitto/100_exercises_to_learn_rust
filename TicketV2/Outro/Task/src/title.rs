@@ -4,14 +4,6 @@
 
 use crate::TicketDescription;
 
-#[derive(Debug, thiserror::Error)]
-pub enum ParseTitleError {
-    #[error("The title cannot be empty")]
-    TitleEmpty,
-    #[error("The title cannot be longer than 50 bytes")]
-    TitleLong,
-}
-
 #[derive(Clone, Debug, PartialEq)]
 pub struct TicketTitle(String);
 
@@ -19,28 +11,44 @@ impl TicketTitle {
     pub fn value(&self) -> &str { &self.0 }
 }
 
+#[derive(Debug, thiserror::Error)]
+pub enum TicketTitleError {
+    #[error("The title cannot be empty")]
+    Empty,
+    #[error("The title cannot be longer than 50 bytes")]
+    TooLong,
+}
+
 impl TryFrom<String> for TicketTitle {
-    type Error = ParseTitleError;
+    type Error = TicketTitleError;
 
     fn try_from(value: String) -> Result<Self, Self::Error> {
-        if value.is_empty() {
-            Err(ParseTitleError::TitleEmpty)
-        }
-        else if value.len() > 50 {
-            Err(ParseTitleError::TitleLong)
-        } else {
-            Ok(TicketTitle(value))
-        }
+        validate(&value)?;
+        Ok(TicketTitle(value))
     }
 }
 
 impl TryFrom<&str> for TicketTitle {
-    type Error = ParseTitleError;
+    type Error = TicketTitleError;
 
     fn try_from(value: &str) -> Result<Self, Self::Error> {
-        Self::try_from(value.to_owned())
+        // Self::try_from(value.to_owned())
+        validate(value)?;
+        Ok(Self(value.to_owned()))
     }
 }
+
+fn validate(title: &str) -> Result<(), TicketTitleError> {
+    if title.is_empty() {
+        Err(TicketTitleError::Empty)
+    }
+    else if title.len() > 50 {
+        Err(TicketTitleError::TooLong)
+    } else {
+        Ok(())
+    }
+}
+
 
 
 
