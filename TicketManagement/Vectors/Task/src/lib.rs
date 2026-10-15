@@ -16,5 +16,15 @@ pub fn fibonacci(n: u32) -> u32 {
     // Hint: use a `Vec` to memoize the results you have already calculated
     // so that you don't have to recalculate them several times.
 
-    /* TODO */
+    let mut cache = vec![Some(0), Some(1)];
+    return memoize(n, &mut cache);
+
+    fn memoize(n: u32, cache: &mut Vec<Option<u32>>) -> u32 {
+        if let Some(Some(answer)) = cache.get(n as usize) {
+            return *answer
+        }
+        let answer = memoize(n-1, cache) + memoize(n-2, cache);
+        cache.push(Some(answer));
+        answer
+    }
 }
