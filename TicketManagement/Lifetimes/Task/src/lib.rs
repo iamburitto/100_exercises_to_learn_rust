@@ -36,4 +36,20 @@ impl TicketStore {
     }
 }
 
-/* TODO */
+impl<'a> IntoIterator for &'a TicketStore {
+    type Item = &'a Ticket;
+    type IntoIter = std::slice::Iter<'a, Ticket>;
+
+    fn into_iter(self) -> Self::IntoIter {
+        self.iter()
+    }
+}
+
+// impl IntoIterator for TicketStore {
+//     type Item = Ticket;
+//     type IntoIter = std::vec::IntoIter<Self::Item>;
+//
+//     fn into_iter(self) -> Self::IntoIter {
+//         self.tickets.into_iter()
+//     }
+// }
