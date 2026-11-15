@@ -54,6 +54,8 @@ impl TicketStore {
 }
 
 /* TODO */
+//  First task: implement `IntoIterator` on `TicketStore` to allow iterating over all the tickets
+//  it contains using a `for` loop.
 impl IntoIterator for TicketStore {
     type Item = Ticket;
     type IntoIter = std::vec::IntoIter<Self::Item>;
