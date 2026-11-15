@@ -15,13 +15,6 @@ mod tests {
 
         let tickets: Vec<_> = store.clone().into_iter().collect();
         assert_eq!(tickets, *store.tickets());
-
-        // iterate by consuming (no borrowing)
-        // requires implementing IntoIterator for TicketStore
-        for ticket in store.tickets() {
-            println!("{ticket:?}");
-        }
-
     }
 
 }

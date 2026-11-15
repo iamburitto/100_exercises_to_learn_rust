@@ -31,11 +31,16 @@ impl TicketStore {
         self.tickets.push(ticket);
     }
 
-    pub fn iter(&self) -> std::slice::Iter<Ticket> {
+    pub fn tickets(&self) -> &Vec<Ticket> {
+        &self.tickets
+    }
+
+    pub fn iter(&self) -> std::slice::Iter<'_, Ticket> {
         self.tickets.iter()
     }
 }
 
+// TODO: Implement the `IntoIterator` trait for `&TicketStore` so that the test compiles and passes.
 impl<'a> IntoIterator for &'a TicketStore {
     type Item = &'a Ticket;
     type IntoIter = std::slice::Iter<'a, Ticket>;
@@ -45,11 +50,14 @@ impl<'a> IntoIterator for &'a TicketStore {
     }
 }
 
-// impl IntoIterator for TicketStore {
-//     type Item = Ticket;
-//     type IntoIter = std::vec::IntoIter<Self::Item>;
-//
-//     fn into_iter(self) -> Self::IntoIter {
-//         self.tickets.into_iter()
-//     }
-// }
+/* TODO */
+//  First task: implement `IntoIterator` on `TicketStore` to allow iterating over all the tickets
+//  it contains using a `for` loop.
+impl IntoIterator for TicketStore {
+    type Item = Ticket;
+    type IntoIter = std::vec::IntoIter<Ticket>;
+
+    fn into_iter(self) -> Self::IntoIter {
+        self.tickets.into_iter()
+    }
+}
