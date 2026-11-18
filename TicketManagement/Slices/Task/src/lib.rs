@@ -2,3 +2,7 @@
 //  elements in the slice.
 
 /* TODO */
+
+pub fn sum(slice: &[u32]) -> u32 {
+    slice.iter().sum()
+}
