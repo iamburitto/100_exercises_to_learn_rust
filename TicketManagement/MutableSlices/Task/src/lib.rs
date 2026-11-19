@@ -5,6 +5,7 @@ pub fn squared(slice: &mut [i32]) {
     slice.iter_mut().for_each(|item| *item *= *item);
 }
 
+
 // Version to use if chaining at the end of an iterator:
 // pub fn squared(slice: &mut [i32]) {
 //     slice.iter_mut().for_each(|item| *item = item.pow(2));
