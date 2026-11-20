@@ -4,16 +4,16 @@ files:
     visible: true
     placeholders:
       - offset: 525
-        length: 10
+        length: 21
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 525
         initialized_from_dependency: false
         encrypted_possible_answer: RNbSeoGkFEZbM5YH+vdCRnbBrB6qgPoXDVgy4MEqwQE=
-        selected: false
+        selected: true
         status: Unchecked
-      - offset: 1056
+      - offset: 1067
         length: 7
         placeholder_text: todo!()
         initial_state:
@@ -23,7 +23,7 @@ files:
         encrypted_possible_answer: nBd/h619gKe/n+/oQGtlCQ==
         selected: false
         status: Unchecked
-      - offset: 1419
+      - offset: 1430
         length: 7
         placeholder_text: todo!()
         initial_state:
@@ -33,7 +33,7 @@ files:
         encrypted_possible_answer: /5aJTE33XfW+80vJM2nJHX86HufteieR/NwHGeeT7CEKnYBoh7VK6lzhjW0B0noO
         selected: false
         status: Unchecked
-      - offset: 1510
+      - offset: 1521
         length: 7
         placeholder_text: todo!()
         initial_state:
@@ -43,7 +43,7 @@ files:
         encrypted_possible_answer: NE/y/HzUK3Sukc9Eaeatv8SwiHr0kA0Zr5h0gSPEr7A=
         selected: false
         status: Unchecked
-      - offset: 1602
+      - offset: 1613
         length: 7
         placeholder_text: todo!()
         initial_state:
@@ -53,7 +53,7 @@ files:
         encrypted_possible_answer: NE/y/HzUK3Sukc9EaeatvyLzfPvRPTFcdWeQrDoVpyc=
         selected: false
         status: Unchecked
-      - offset: 2241
+      - offset: 2252
         length: 10
         placeholder_text: /* TODO */
         initial_state:

@@ -13,7 +13,7 @@ pub struct TicketStore {
     counter: u64,
 }
 
-#[derive(Clone, Copy, Debug, PartialEq/* TODO */)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord)]
 pub struct TicketId(u64);
 
 #[derive(Clone, Debug, PartialEq)]
