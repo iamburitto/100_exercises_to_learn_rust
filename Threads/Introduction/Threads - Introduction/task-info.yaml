@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 74
-        length: 24
+        length: 44
         placeholder_text: insert here missing part
         initial_state:
           length: 24
@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 0MfoMqmMogwbwoaUrJje43J0nqyS5FYv0bV1VK9tmM0NSggox9qVjmvrYRW3oXbE
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -20,5 +20,8 @@ files:
   - name: tests/tests.rs
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 20 Nov 2026 18:28:30 UTC"
 record: -1
