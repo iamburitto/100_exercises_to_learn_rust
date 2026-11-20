@@ -61,6 +61,6 @@ impl TicketStore {
     }
 
     pub fn get(&self, id: TicketId) -> Option<&Ticket> {
-        self.tickets.iter().find(|&ticket| ticket.id == id)
+        self.tickets.iter().find(|ticket| ticket.id == id)
     }
 }
