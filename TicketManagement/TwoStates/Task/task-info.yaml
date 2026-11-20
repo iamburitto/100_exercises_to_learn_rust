@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: G/BK/Qe7KzVBij1Hk7ZmPQ==
         selected: true
-        status: Failed
+        status: Solved
       - offset: 1083
         length: 11
         placeholder_text: /* TODO */
@@ -22,9 +22,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: EirIru374XcdyW9CBQSIpw==
         selected: true
-        status: Failed
-      - offset: 1116
-        length: 94
+        status: Solved
+      - offset: 1111
+        length: 400
         placeholder_text: |-
           /* TODO */
           pub fn add_ticket(&mut self, ticket: Ticket) {
@@ -36,9 +36,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: gU0qedZzZPVkl2Vjyc1wcpIgEcnaRupOTpHrmKig+/TEVsX7sKWazFiCnCArzKkxwH3uE3nLkfh/Emsxr0DT2qo4oo9YfhRHabl/v1oJuEqnIfSn8waSNdpDaj9rRk10L3E//HXVAEi34t0yhyd4QG5/BwQuKHltnBbPTL3klFK3H54p+JX6zVzJLIZia7UY3M5Q1KLDkc0EVthVkSs3iEGmgOzLlB2AJ20jobdLC4NtLuYGd6PMKe9Pkrf5zpWuMOuM+UgInLj1WDpy6KUnngJmkNCr2W93ClRU4IAf7xUTKODSLOVAzZbFN3oV9SK1bzLOgl7QJEiEFPFygA1VA4OaWFC2FVxSftKVZ2PLL1hQGaOXRf0MO6Ko/k+seL63s2FIBWak5yyJzuRxOZtybEMMSVAKncL2MTKZk8qa97supgibcVFNPkRolRZSz5VyhLG93Qz5HqcbxiHdR9PJln7nbvjCqtVtyUOEkLha8CE=
         selected: true
-        status: Failed
-      - offset: 1211
-        length: 248
+        status: Solved
+      - offset: 1512
+        length: 123
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -46,7 +46,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: FAoCkwyi2JRZbR03R8AmhZqrlRA+G2gN0yPtDkDM1gJNKNr8xbBndOs34/xphidybxKFR1d+QFLrvKDtJWz73SfAG4z7Brf+dpHijZmc9ZNabCzBXQUcUDc6c9a4fkHOHCN6x2q275aJjBg0aBqi6O9EGR6AfwFVdKVHP9jPkpE=
         selected: true
-        status: Failed
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -54,8 +54,8 @@ files:
   - name: tests/tests.rs
     visible: true
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Compilation Failed
-  time: "Fri, 20 Nov 2026 08:50:12 UTC"
+  message: Congratulations!
+  time: "Fri, 20 Nov 2026 10:03:32 UTC"
 record: -1

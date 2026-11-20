@@ -46,15 +46,21 @@ impl TicketStore {
         }
     }
 
-    /* TODO */
-pub fn add_ticket(&mut self, ticket: Ticket) {
-        self.tickets.push(ticket);
-}
+    pub fn add_ticket(&mut self, ticket_draft: TicketDraft) -> TicketId {
+        self.counter += 1;
+        let id = TicketId(self.counter);
+        self.tickets.push(
+            Ticket {
+                id: id.clone(),
+                title: ticket_draft.title,
+                description: ticket_draft.description,
+                status: Status::ToDo,
+            }
+        );
+        id
+    }
 
-    // TODO: You also need to add a `get` method that takes as input a `TicketId`
-    //  and returns an `Option<&Ticket>`.
     pub fn get(&self, id: TicketId) -> Option<&Ticket> {
         self.tickets.iter().find(|&ticket| ticket.id == id)
     }
-
 }
