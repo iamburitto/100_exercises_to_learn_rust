@@ -54,14 +54,14 @@ impl TicketStore {
 
     pub fn add_ticket(&mut self, ticket: TicketDraft) -> TicketId {
         let id = TicketId(self.counter);
-        self.counter += 1;
         let ticket = Ticket {
-            id,
+            id: id.clone(),
             title: ticket.title,
             description: ticket.description,
             status: Status::ToDo,
         };
-        todo!()
+        self.tickets.insert(ticket.id, ticket);
+        self.counter += 1;
         id
     }
 

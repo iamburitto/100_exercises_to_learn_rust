@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 1RG7v3da+X+NCtVHlZ9GgA==
         selected: true
-        status: Unchecked
+        status: Solved
       - offset: 1197
         length: 14
         placeholder_text: todo!()
@@ -22,9 +22,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: hRBRmBmNtg1PKLqd5J8O8Q==
         selected: false
-        status: Unchecked
-      - offset: 1567
-        length: 7
+        status: Solved
+      - offset: 1552
+        length: 77
         placeholder_text: todo!()
         initial_state:
           length: 7
@@ -32,8 +32,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: /5aJTE33XfW+80vJM2nJHX86HufteieR/NwHGeeT7CEKnYBoh7VK6lzhjW0B0noO
         selected: true
-        status: Unchecked
-      - offset: 1650
+        status: Solved
+      - offset: 1694
         length: 35
         placeholder_text: todo!()
         initial_state:
@@ -42,8 +42,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NE/y/HzUK3Sukc9Eaeatv8SwiHr0kA0Zr5h0gSPEr7A=
         selected: true
-        status: Unchecked
-      - offset: 1764
+        status: Solved
+      - offset: 1808
         length: 25
         placeholder_text: todo!()
         initial_state:
@@ -52,7 +52,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NE/y/HzUK3Sukc9EaeatvyLzfPvRPTFcdWeQrDoVpyc=
         selected: true
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -60,5 +60,8 @@ files:
   - name: tests/tests.rs
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 20 Nov 2026 13:52:37 UTC"
 record: -1
