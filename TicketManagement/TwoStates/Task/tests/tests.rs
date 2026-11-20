@@ -16,14 +16,21 @@ mod tests {
         assert_eq!(draft1.title, ticket1.title);
         assert_eq!(draft1.description, ticket1.description);
         assert_eq!(ticket1.status, Status::ToDo);
+        assert_eq!(ticket1.id, id1);
 
         let draft2 = TicketDraft {
             title: ticket_title(),
             description: ticket_description(),
         };
-        let id2 = store.add_ticket(draft2);
+        let id2 = store.add_ticket(draft2.clone());
         let ticket2 = store.get(id2).unwrap();
 
         assert_ne!(id1, id2);
+
+        assert_eq!(draft2.title, ticket2.title);
+        assert_eq!(draft2.description, ticket2.description);
+        assert_eq!(ticket2.status, Status::ToDo);
+
+        assert_eq!(ticket2.id, id2);
     }
 }
