@@ -53,8 +53,8 @@ pub fn add_ticket(&mut self, ticket: Ticket) {
 
     // TODO: You also need to add a `get` method that takes as input a `TicketId`
     //  and returns an `Option<&Ticket>`.
-    pub fn get(&self, ticket_id: TicketId) -> Option<&Ticket> {
-
+    pub fn get(&self, id: TicketId) -> Option<&Ticket> {
+        self.tickets.iter().find(|&ticket| ticket.id == id)
     }
 
 }
