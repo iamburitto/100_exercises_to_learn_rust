@@ -35,10 +35,19 @@ pub enum Status {
     Done,
 }
 
+// // Type inference lets us omit an explicit type signature (which
+// // would be `HashMap<String, String>` in this example).
+// let mut book_reviews = HashMap::new();
+//
+// book_reviews.insert(
+// "Adventures of Huckleberry Finn".to_string(),
+// "My favorite book.".to_string(),
+// );
+
 impl TicketStore {
     pub fn new() -> Self {
         Self {
-            tickets: todo!(),
+            tickets: HashMap::new(),
             counter: 0,
         }
     }
