@@ -3,8 +3,8 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
-      - offset: 774
-        length: 485
+      - offset: 734
+        length: 321
         placeholder_text: /* TODO */
         initial_state:
           length: 10

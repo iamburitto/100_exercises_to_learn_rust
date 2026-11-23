@@ -16,24 +16,15 @@
 use std::thread;
 
 pub fn sum(v: Vec<i32>) -> i32 {
-    // Split the vector into two halves
     let mid = v.len() / 2;
-    let first_half : Vec<i32> = v[..mid].iter().copied().collect();
-    let second_half : Vec<i32>= v[mid..].iter().copied().collect();
+    let (v1, v2) = v.split_at(mid);
+    let v1 = v1.to_vec();
+    let v2 = v2.to_vec();
 
-    // use spawn and join to sum each half in a separate thread
+    let handle1 = thread::spawn( move || { v1.into_iter().sum::<i32>() });
+    let handle2 = thread::spawn( move || { v2.into_iter().sum::<i32>() });
 
-    let handle1 = thread::spawn( move || {
-        first_half.iter().sum::<i32>()
-    });
-
-    let handle2 = thread::spawn( move || {
-        second_half.iter().sum::<i32>()
-    });
-
-    let sum = handle1.join().unwrap() + handle2.join().unwrap();
-
-    sum
+    handle1.join().unwrap() + handle2.join().unwrap()
 }
 
 
