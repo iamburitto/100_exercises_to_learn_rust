@@ -12,8 +12,17 @@
 // slices of the vector directly. You'll need to allocate new
 // vectors for each half of the original vector. We'll see why
 // this is necessary in the next exercise.
+
 use std::thread;
 
 pub fn sum(v: Vec<i32>) -> i32 {
-    /* TODO */
+    // midpoint = length/2 (extra ends up in second half)
+    let mid = v.len() / 2;
+    let first_half : Vec<i32> = v[..mid].iter().copied().collect();
+    let second_half : Vec<i32>= v[mid..].iter().copied().collect();
+    
+
+
 }
+
+
